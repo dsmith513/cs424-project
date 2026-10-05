@@ -80,6 +80,53 @@ I mapped Domain Question 4 to comparison across combinations of categories becau
 
 #### Task 5: Visualization sketches
 
+##### Initial sketches
+
+###### Initial sketch 1: Bar sketch
+
+![Initial bar sketch](sketches/barsketch1.jpg)
+
+This sketch answers domain question 1. It compares the passnger boarding and exiting counts across each station. The attributes being represented are the individual stations as well as how many passengers get on and off at those stations. The marks being used are the side-by-side bar graphs. The channels are the bar heights and colors. The coloring worked well because it allows an easy way to distinguish whether a passenger is getting on or off at a particular station. Long station labels make the horizontal axis crowded, and omitted stations need to be identified as skipped stops so they are not mistaken for zero activity. The sketch is limited by its inability to filter by date, train and whether the train is inbound or outbound. This limits the ability to best answer domain question one.
+
+###### Initial sketch 2: Plot sketch
+
+![Initial plot sketch](sketches/plotsketch.jpg)
+
+This sketch addresses domain question 4 by comparing passenger counts across weekdays. The attributes being represented are the weekday, passenger count for each trip, and whether the trip is inbound or outbound. The marks being used are individual points. The channels are horizontal position for weekday, vertical position for passenger count, and filled or hollow points to distinguish inbound and outbound trips. Showing each trip separately works well because it allows differences between observations on the same weekday to remain visible. Unlike the first sketch, this sketch focuses on variation between trips rather than activity at individual stations. Some points overlap, making them difficult to distinguish, and the passenger count would need to be defined consistently, such as peak occupancy. The sketch also does not distinguish train services, which limits its ability to fully answer domain question 4.
+
+###### Initial sketch 3: Pie sketch
+
+![Initial pie sketch](sketches/piesketch.jpg)
+
+This sketch addresses the exiting portion of domain question 1 by showing the share of passengers exiting at each observed stop on outbound express train 655. The attributes being represented are the station, exiting passenger count, remaining passengers after Cary, date, and train number. The marks being used are pie slices, and the channels are slice angle and area, with labels identifying the stations and counts. The motivation was to show how the passengers are distributed among the exit stops and those who continue beyond Cary. This works well for identifying the largest share, such as Palatine in the sketch, but comparing similarly sized slices is more difficult than comparing bar heights. The remaining-passengers slice is not an exit station and needs to be clearly distinguished. The date and train toggles would allow different trips to be explored, although comparing separate pies would be difficult. Unlike the first two sketches, this design emphasizes parts of a total rather than absolute counts or variation across weekdays.
+
+##### Refined sketches
+
+###### Refined sketch 1: Bar sketch
+
+![Refined bar sketch](sketches/barsketch2.jpg)
+
+This refined sketch addresses domain question 1 by improving on the initial bar sketch. It compares boarding and exiting counts at each station for a selected trip. The attributes being represented are the station, boarding count, exiting count, date, train number, and trip direction. The marks being used are side-by-side bars. The channels are horizontal position for station, bar height for passenger count, and unshaded or shaded fill to distinguish getting on from getting off. This refines the first sketch by adding a clear legend and controls for changing the date and direction. The shared baseline works well for comparing counts and identifying stations with the most activity. I expect someone to be able to identify where boarding exceeds exiting and where that relationship reverses. Long station labels make the horizontal axis crowded, and omitted stations need to be identified as skipped stops so they are not mistaken for zero activity. Unlike the pie sketch, this design supports direct comparisons of absolute boarding and exiting counts.
+
+###### Refined sketch 2: Line sketch
+
+![Refined line sketch](sketches/linesketch.jpg)
+
+This refined sketch addresses domain question 2 and supports domain question 4 by showing how passenger occupancy changes along the route across multiple dates. The attributes being represented are station order, passenger count derived from existing passengers plus boardings minus exits, trip date, and train number. The marks being used are lines connecting passenger counts along each trip. The channels are horizontal position for station order, vertical position for passenger count, and the proposed line colors for different dates. The train-number control would allow services to be selected for comparison, which could also support domain question 3 when express and non-express trips in the same direction are selected. I expect someone to be able to follow changes along the route, locate peak occupancy, and compare whether trips follow similar patterns. Unlike the bar sketch, this design shows the passengers present rather than separate boarding and exiting events. Overlapping lines are difficult to distinguish in the pencil sketch, so the proposed colors would help. The Chicago OTC value should represent passengers arriving before the final exit, and the connecting lines should not imply that passenger counts change continuously between stations.
+
 #### Task 6: Summarizing
 
+My sketches explored four design directions: comparing boarding and exiting counts with bars, showing variation across weekdays with points, showing the distribution of exits with pie slices, and following passenger occupancy along the route with lines. Each direction emphasizes a different aspect of the same observations. The bars focus on passenger activity at individual stations, the points focus on differences between trips, the pie focuses on shares of a total, and the lines focus on how passenger counts accumulate and decrease. Trying these ideas helped me recognize that boarding counts, exiting counts, and occupancy are related but answer different questions. A station can have a large number of exits without being the location where occupancy is highest.
+
+The initial and refined bar sketches are the most readable designs for domain question 1 because the shared baseline makes boarding and exiting counts easy to compare. Their main weakness is scalability: adding stations makes the labels crowded, and adding dates or services as more bars would increase complexity. The refined sketch improves on the initial one by including a legend and date and direction controls, allowing one trip to be examined at a time. However, switching between trips makes simultaneous comparisons more difficult. The pie sketch offers a different perspective on question 1 by showing which stops account for the largest shares of exits. It is compact and expressive for an express trip with few stops, but small differences between slices are harder to judge than differences between bar heights. It would become less readable for a service with many stops. Including remaining passengers also complicates the meaning of the whole, since that slice represents passengers who have not exited within the observed segment.
+
+The refined line sketch is the strongest design for domain question 2. Its ordered station positions make it possible to follow occupancy along the route and locate its maximum. Compared with the bars, the lines communicate the overall shape of a trip more clearly, but they do not directly explain whether a change came from boarding, exiting, or both. Showing multiple dates also supports comparing occupancy patterns for domain question 4. Its weakness is that overlapping lines become difficult to follow as more trips are added, and color alone would eventually be insufficient to distinguish them. Filtering train services reduces that complexity, although it also reduces the amount of information visible at once. The weekday plot complements this design by showing individual trip counts without requiring someone to trace a route. It is simpler for spotting variation within a weekday, but overlapping points and the absence of service identifiers limit its readability and its coverage of question 4.
+
+The sketches answer the revised domain questions with different levels of completeness. Question 1 is covered most directly by the bar sketches, with the pie providing a complementary view of exit shares. Question 2 is covered by the line sketch. Question 3, comparing express and non-express trains, is less addressed by the current sketches and will need to be addressed with future visualizations. Selecting different train numbers in the line sketch could reveal occupancy differences, but none of the sketches explicitly compare both total boardings and peak occupancy by service category. A further refinement could separate express and non-express trips while retaining direction and using the same passenger-count measure. Question 4 is partially addressed by the weekday plot and the multiple-date lines, but comparing boarding, exiting, and occupancy jointly by weekday and service would require clearer service labels and coordinated comparisons. The sketches can reveal patterns in the available observations, but cannot establish that service type or weekday caused those patterns.
+
+Knowing how the data was collected affected which comparisons seemed reasonable. Counts apply only to the car I observed, and skipped stops must remain distinct from stops with zero activity. My commute also links particular services and departure times to particular weekdays, so the designs need to preserve that context rather than suggest that every weekday-service combination was sampled. If I collected the data again, I would record the car's position as well and observe the same services on more weekdays and over more weeks. Broader sampling would support more balanced comparisons. Sketching shifted my perspective from trying to display every column to deciding which measure and comparison would actually help answer each question.
+
+
 #### Task 7: Collaboration process
+
+I worked alone, so there was no collaboration process. I did all data collection, tasks, and sketches myself.
