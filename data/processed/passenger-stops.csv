@@ -1,0 +1,651 @@
+observation_id,date,day_of_week,direction,train_number,service_type,departure_time,stop_order,stop_name,stop_status,boardings,exits,passengers_after_stop,initial_passengers
+2026-09-21_inbound_640,2026-09-21,Monday,Inbound,640,Express,08:24,1,Cary,observed_stop,2,0,9,7
+2026-09-21_inbound_640,2026-09-21,Monday,Inbound,640,Express,08:24,2,Fox River Grove,observed_stop,2,0,11,7
+2026-09-21_inbound_640,2026-09-21,Monday,Inbound,640,Express,08:24,3,Barrington,observed_stop,3,0,14,7
+2026-09-21_inbound_640,2026-09-21,Monday,Inbound,640,Express,08:24,4,Palatine,observed_stop,7,0,21,7
+2026-09-21_inbound_640,2026-09-21,Monday,Inbound,640,Express,08:24,5,Arlington Park,observed_stop,3,1,23,7
+2026-09-21_inbound_640,2026-09-21,Monday,Inbound,640,Express,08:24,6,Arlington Heights,observed_stop,6,0,29,7
+2026-09-21_inbound_640,2026-09-21,Monday,Inbound,640,Express,08:24,7,Mt. Prospect,observed_stop,3,0,32,7
+2026-09-21_inbound_640,2026-09-21,Monday,Inbound,640,Express,08:24,8,Cumberland,observed_stop,1,0,33,7
+2026-09-21_inbound_640,2026-09-21,Monday,Inbound,640,Express,08:24,9,Des Plaines,observed_stop,4,0,37,7
+2026-09-21_inbound_640,2026-09-21,Monday,Inbound,640,Express,08:24,10,Jefferson Park,observed_stop,2,1,38,7
+2026-09-21_inbound_640,2026-09-21,Monday,Inbound,640,Express,08:24,11,Clybourn,observed_stop,1,2,37,7
+2026-09-21_inbound_640,2026-09-21,Monday,Inbound,640,Express,08:24,12,Chicago OTC,terminal_checkpoint,,,37,7
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,1,Cary,observed_stop,3,0,5,2
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,2,Fox River Grove,observed_stop,0,0,5,2
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,3,Barrington,observed_stop,3,0,8,2
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,4,Palatine,observed_stop,7,0,15,2
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,5,Arlington Park,observed_stop,2,0,17,2
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,6,Arlington Heights,observed_stop,4,0,21,2
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,7,Mt. Prospect,observed_stop,2,0,23,2
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,8,Cumberland,observed_stop,2,0,25,2
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,9,Des Plaines,observed_stop,2,1,26,2
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,10,Dee Road,observed_stop,5,0,31,2
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,11,Park Ridge,observed_stop,5,0,36,2
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,12,Edison Park,observed_stop,5,0,41,2
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,13,Norwood Park,observed_stop,1,0,42,2
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,14,Gladstone Park,observed_stop,1,0,43,2
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,15,Jefferson Park,observed_stop,5,0,48,2
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,16,Irving Park,observed_stop,2,0,50,2
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,17,Clybourn,observed_stop,1,2,49,2
+2026-09-22_inbound_638,2026-09-22,Tuesday,Inbound,638,Non-express,07:54,18,Chicago OTC,terminal_checkpoint,,,49,2
+2026-09-23_inbound_640,2026-09-23,Wednesday,Inbound,640,Express,08:24,1,Cary,observed_stop,3,0,10,7
+2026-09-23_inbound_640,2026-09-23,Wednesday,Inbound,640,Express,08:24,2,Fox River Grove,observed_stop,1,0,11,7
+2026-09-23_inbound_640,2026-09-23,Wednesday,Inbound,640,Express,08:24,3,Barrington,observed_stop,3,0,14,7
+2026-09-23_inbound_640,2026-09-23,Wednesday,Inbound,640,Express,08:24,4,Palatine,observed_stop,9,0,23,7
+2026-09-23_inbound_640,2026-09-23,Wednesday,Inbound,640,Express,08:24,5,Arlington Park,observed_stop,1,0,24,7
+2026-09-23_inbound_640,2026-09-23,Wednesday,Inbound,640,Express,08:24,6,Arlington Heights,observed_stop,7,0,31,7
+2026-09-23_inbound_640,2026-09-23,Wednesday,Inbound,640,Express,08:24,7,Mt. Prospect,observed_stop,5,0,36,7
+2026-09-23_inbound_640,2026-09-23,Wednesday,Inbound,640,Express,08:24,8,Cumberland,observed_stop,1,0,37,7
+2026-09-23_inbound_640,2026-09-23,Wednesday,Inbound,640,Express,08:24,9,Des Plaines,observed_stop,4,0,41,7
+2026-09-23_inbound_640,2026-09-23,Wednesday,Inbound,640,Express,08:24,10,Jefferson Park,observed_stop,2,1,42,7
+2026-09-23_inbound_640,2026-09-23,Wednesday,Inbound,640,Express,08:24,11,Clybourn,observed_stop,0,2,40,7
+2026-09-23_inbound_640,2026-09-23,Wednesday,Inbound,640,Express,08:24,12,Chicago OTC,terminal_checkpoint,,,40,7
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,1,Cary,observed_stop,3,0,5,2
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,2,Fox River Grove,observed_stop,0,0,5,2
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,3,Barrington,observed_stop,1,0,6,2
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,4,Palatine,observed_stop,6,0,12,2
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,5,Arlington Park,observed_stop,3,0,15,2
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,6,Arlington Heights,observed_stop,5,0,20,2
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,7,Mt. Prospect,observed_stop,3,0,23,2
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,8,Cumberland,observed_stop,1,0,24,2
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,9,Des Plaines,observed_stop,1,1,24,2
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,10,Dee Road,observed_stop,4,0,28,2
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,11,Park Ridge,observed_stop,4,0,32,2
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,12,Edison Park,observed_stop,3,0,35,2
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,13,Norwood Park,observed_stop,2,0,37,2
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,14,Gladstone Park,observed_stop,2,0,39,2
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,15,Jefferson Park,observed_stop,3,0,42,2
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,16,Irving Park,observed_stop,2,0,44,2
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,17,Clybourn,observed_stop,2,2,44,2
+2026-09-24_inbound_638,2026-09-24,Thursday,Inbound,638,Non-express,07:54,18,Chicago OTC,terminal_checkpoint,,,44,2
+2026-09-25_inbound_640,2026-09-25,Friday,Inbound,640,Express,08:24,1,Cary,observed_stop,2,0,7,5
+2026-09-25_inbound_640,2026-09-25,Friday,Inbound,640,Express,08:24,2,Fox River Grove,observed_stop,2,0,9,5
+2026-09-25_inbound_640,2026-09-25,Friday,Inbound,640,Express,08:24,3,Barrington,observed_stop,2,0,11,5
+2026-09-25_inbound_640,2026-09-25,Friday,Inbound,640,Express,08:24,4,Palatine,observed_stop,8,0,19,5
+2026-09-25_inbound_640,2026-09-25,Friday,Inbound,640,Express,08:24,5,Arlington Park,observed_stop,3,1,21,5
+2026-09-25_inbound_640,2026-09-25,Friday,Inbound,640,Express,08:24,6,Arlington Heights,observed_stop,7,0,28,5
+2026-09-25_inbound_640,2026-09-25,Friday,Inbound,640,Express,08:24,7,Mt. Prospect,observed_stop,5,0,33,5
+2026-09-25_inbound_640,2026-09-25,Friday,Inbound,640,Express,08:24,8,Cumberland,observed_stop,2,0,35,5
+2026-09-25_inbound_640,2026-09-25,Friday,Inbound,640,Express,08:24,9,Des Plaines,observed_stop,3,0,38,5
+2026-09-25_inbound_640,2026-09-25,Friday,Inbound,640,Express,08:24,10,Jefferson Park,observed_stop,0,1,37,5
+2026-09-25_inbound_640,2026-09-25,Friday,Inbound,640,Express,08:24,11,Clybourn,observed_stop,0,3,34,5
+2026-09-25_inbound_640,2026-09-25,Friday,Inbound,640,Express,08:24,12,Chicago OTC,terminal_checkpoint,,,34,5
+2026-09-28_inbound_640,2026-09-28,Monday,Inbound,640,Express,08:24,1,Cary,observed_stop,3,0,10,7
+2026-09-28_inbound_640,2026-09-28,Monday,Inbound,640,Express,08:24,2,Fox River Grove,observed_stop,0,0,10,7
+2026-09-28_inbound_640,2026-09-28,Monday,Inbound,640,Express,08:24,3,Barrington,observed_stop,4,0,14,7
+2026-09-28_inbound_640,2026-09-28,Monday,Inbound,640,Express,08:24,4,Palatine,observed_stop,7,0,21,7
+2026-09-28_inbound_640,2026-09-28,Monday,Inbound,640,Express,08:24,5,Arlington Park,observed_stop,0,0,21,7
+2026-09-28_inbound_640,2026-09-28,Monday,Inbound,640,Express,08:24,6,Arlington Heights,observed_stop,4,0,25,7
+2026-09-28_inbound_640,2026-09-28,Monday,Inbound,640,Express,08:24,7,Mt. Prospect,observed_stop,3,0,28,7
+2026-09-28_inbound_640,2026-09-28,Monday,Inbound,640,Express,08:24,8,Cumberland,observed_stop,0,0,28,7
+2026-09-28_inbound_640,2026-09-28,Monday,Inbound,640,Express,08:24,9,Des Plaines,observed_stop,4,0,32,7
+2026-09-28_inbound_640,2026-09-28,Monday,Inbound,640,Express,08:24,10,Jefferson Park,observed_stop,2,1,33,7
+2026-09-28_inbound_640,2026-09-28,Monday,Inbound,640,Express,08:24,11,Clybourn,observed_stop,0,2,31,7
+2026-09-28_inbound_640,2026-09-28,Monday,Inbound,640,Express,08:24,12,Chicago OTC,terminal_checkpoint,,,31,7
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,1,Cary,observed_stop,2,0,4,2
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,2,Fox River Grove,observed_stop,1,0,5,2
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,3,Barrington,observed_stop,2,0,7,2
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,4,Palatine,observed_stop,6,0,13,2
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,5,Arlington Park,observed_stop,3,0,16,2
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,6,Arlington Heights,observed_stop,3,0,19,2
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,7,Mt. Prospect,observed_stop,2,0,21,2
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,8,Cumberland,observed_stop,2,0,23,2
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,9,Des Plaines,observed_stop,2,1,24,2
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,10,Dee Road,observed_stop,7,0,31,2
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,11,Park Ridge,observed_stop,5,0,36,2
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,12,Edison Park,observed_stop,3,1,38,2
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,13,Norwood Park,observed_stop,2,0,40,2
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,14,Gladstone Park,observed_stop,4,0,44,2
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,15,Jefferson Park,observed_stop,6,0,50,2
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,16,Irving Park,observed_stop,2,0,52,2
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,17,Clybourn,observed_stop,2,2,52,2
+2026-09-29_inbound_638,2026-09-29,Tuesday,Inbound,638,Non-express,07:54,18,Chicago OTC,terminal_checkpoint,,,52,2
+2026-09-30_inbound_640,2026-09-30,Wednesday,Inbound,640,Express,08:24,1,Cary,observed_stop,2,0,9,7
+2026-09-30_inbound_640,2026-09-30,Wednesday,Inbound,640,Express,08:24,2,Fox River Grove,observed_stop,2,0,11,7
+2026-09-30_inbound_640,2026-09-30,Wednesday,Inbound,640,Express,08:24,3,Barrington,observed_stop,2,0,13,7
+2026-09-30_inbound_640,2026-09-30,Wednesday,Inbound,640,Express,08:24,4,Palatine,observed_stop,7,0,20,7
+2026-09-30_inbound_640,2026-09-30,Wednesday,Inbound,640,Express,08:24,5,Arlington Park,observed_stop,1,0,21,7
+2026-09-30_inbound_640,2026-09-30,Wednesday,Inbound,640,Express,08:24,6,Arlington Heights,observed_stop,6,0,27,7
+2026-09-30_inbound_640,2026-09-30,Wednesday,Inbound,640,Express,08:24,7,Mt. Prospect,observed_stop,5,0,32,7
+2026-09-30_inbound_640,2026-09-30,Wednesday,Inbound,640,Express,08:24,8,Cumberland,observed_stop,2,0,34,7
+2026-09-30_inbound_640,2026-09-30,Wednesday,Inbound,640,Express,08:24,9,Des Plaines,observed_stop,4,0,38,7
+2026-09-30_inbound_640,2026-09-30,Wednesday,Inbound,640,Express,08:24,10,Jefferson Park,observed_stop,1,1,38,7
+2026-09-30_inbound_640,2026-09-30,Wednesday,Inbound,640,Express,08:24,11,Clybourn,observed_stop,1,2,37,7
+2026-09-30_inbound_640,2026-09-30,Wednesday,Inbound,640,Express,08:24,12,Chicago OTC,terminal_checkpoint,,,37,7
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,1,Cary,observed_stop,3,0,5,2
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,2,Fox River Grove,observed_stop,0,0,5,2
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,3,Barrington,observed_stop,3,0,8,2
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,4,Palatine,observed_stop,8,0,16,2
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,5,Arlington Park,observed_stop,1,0,17,2
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,6,Arlington Heights,observed_stop,5,1,21,2
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,7,Mt. Prospect,observed_stop,4,0,25,2
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,8,Cumberland,observed_stop,3,0,28,2
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,9,Des Plaines,observed_stop,3,0,31,2
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,10,Dee Road,observed_stop,2,0,33,2
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,11,Park Ridge,observed_stop,3,0,36,2
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,12,Edison Park,observed_stop,5,0,41,2
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,13,Norwood Park,observed_stop,1,0,42,2
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,14,Gladstone Park,observed_stop,0,0,42,2
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,15,Jefferson Park,observed_stop,3,0,45,2
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,16,Irving Park,observed_stop,1,0,46,2
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,17,Clybourn,observed_stop,0,2,44,2
+2026-10-01_inbound_638,2026-10-01,Thursday,Inbound,638,Non-express,07:54,18,Chicago OTC,terminal_checkpoint,,,44,2
+2026-10-02_inbound_640,2026-10-02,Friday,Inbound,640,Express,08:24,1,Cary,observed_stop,3,0,9,6
+2026-10-02_inbound_640,2026-10-02,Friday,Inbound,640,Express,08:24,2,Fox River Grove,observed_stop,1,0,10,6
+2026-10-02_inbound_640,2026-10-02,Friday,Inbound,640,Express,08:24,3,Barrington,observed_stop,0,0,10,6
+2026-10-02_inbound_640,2026-10-02,Friday,Inbound,640,Express,08:24,4,Palatine,observed_stop,7,1,16,6
+2026-10-02_inbound_640,2026-10-02,Friday,Inbound,640,Express,08:24,5,Arlington Park,observed_stop,3,1,18,6
+2026-10-02_inbound_640,2026-10-02,Friday,Inbound,640,Express,08:24,6,Arlington Heights,observed_stop,7,0,25,6
+2026-10-02_inbound_640,2026-10-02,Friday,Inbound,640,Express,08:24,7,Mt. Prospect,observed_stop,1,0,26,6
+2026-10-02_inbound_640,2026-10-02,Friday,Inbound,640,Express,08:24,8,Cumberland,observed_stop,2,0,28,6
+2026-10-02_inbound_640,2026-10-02,Friday,Inbound,640,Express,08:24,9,Des Plaines,observed_stop,5,0,33,6
+2026-10-02_inbound_640,2026-10-02,Friday,Inbound,640,Express,08:24,10,Jefferson Park,observed_stop,2,2,33,6
+2026-10-02_inbound_640,2026-10-02,Friday,Inbound,640,Express,08:24,11,Clybourn,observed_stop,0,3,30,6
+2026-10-02_inbound_640,2026-10-02,Friday,Inbound,640,Express,08:24,12,Chicago OTC,terminal_checkpoint,,,30,6
+2026-10-05_inbound_640,2026-10-05,Monday,Inbound,640,Express,08:24,1,Cary,observed_stop,4,0,11,7
+2026-10-05_inbound_640,2026-10-05,Monday,Inbound,640,Express,08:24,2,Fox River Grove,observed_stop,0,0,11,7
+2026-10-05_inbound_640,2026-10-05,Monday,Inbound,640,Express,08:24,3,Barrington,observed_stop,0,0,11,7
+2026-10-05_inbound_640,2026-10-05,Monday,Inbound,640,Express,08:24,4,Palatine,observed_stop,9,0,20,7
+2026-10-05_inbound_640,2026-10-05,Monday,Inbound,640,Express,08:24,5,Arlington Park,observed_stop,2,2,20,7
+2026-10-05_inbound_640,2026-10-05,Monday,Inbound,640,Express,08:24,6,Arlington Heights,observed_stop,5,0,25,7
+2026-10-05_inbound_640,2026-10-05,Monday,Inbound,640,Express,08:24,7,Mt. Prospect,observed_stop,0,0,25,7
+2026-10-05_inbound_640,2026-10-05,Monday,Inbound,640,Express,08:24,8,Cumberland,observed_stop,1,0,26,7
+2026-10-05_inbound_640,2026-10-05,Monday,Inbound,640,Express,08:24,9,Des Plaines,observed_stop,4,0,30,7
+2026-10-05_inbound_640,2026-10-05,Monday,Inbound,640,Express,08:24,10,Jefferson Park,observed_stop,1,2,29,7
+2026-10-05_inbound_640,2026-10-05,Monday,Inbound,640,Express,08:24,11,Clybourn,observed_stop,1,3,27,7
+2026-10-05_inbound_640,2026-10-05,Monday,Inbound,640,Express,08:24,12,Chicago OTC,terminal_checkpoint,,,27,7
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,1,Cary,observed_stop,4,0,6,2
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,2,Fox River Grove,observed_stop,0,0,6,2
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,3,Barrington,observed_stop,0,0,6,2
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,4,Palatine,observed_stop,6,0,12,2
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,5,Arlington Park,observed_stop,1,0,13,2
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,6,Arlington Heights,observed_stop,4,0,17,2
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,7,Mt. Prospect,observed_stop,2,0,19,2
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,8,Cumberland,observed_stop,2,0,21,2
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,9,Des Plaines,observed_stop,3,1,23,2
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,10,Dee Road,observed_stop,1,0,24,2
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,11,Park Ridge,observed_stop,5,0,29,2
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,12,Edison Park,observed_stop,5,2,32,2
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,13,Norwood Park,observed_stop,1,0,33,2
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,14,Gladstone Park,observed_stop,0,0,33,2
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,15,Jefferson Park,observed_stop,3,0,36,2
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,16,Irving Park,observed_stop,2,0,38,2
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,17,Clybourn,observed_stop,1,1,38,2
+2026-10-06_inbound_638,2026-10-06,Tuesday,Inbound,638,Non-express,07:54,18,Chicago OTC,terminal_checkpoint,,,38,2
+2026-10-07_inbound_640,2026-10-07,Wednesday,Inbound,640,Express,08:24,1,Cary,observed_stop,3,0,9,6
+2026-10-07_inbound_640,2026-10-07,Wednesday,Inbound,640,Express,08:24,2,Fox River Grove,observed_stop,1,0,10,6
+2026-10-07_inbound_640,2026-10-07,Wednesday,Inbound,640,Express,08:24,3,Barrington,observed_stop,4,0,14,6
+2026-10-07_inbound_640,2026-10-07,Wednesday,Inbound,640,Express,08:24,4,Palatine,observed_stop,8,0,22,6
+2026-10-07_inbound_640,2026-10-07,Wednesday,Inbound,640,Express,08:24,5,Arlington Park,observed_stop,1,0,23,6
+2026-10-07_inbound_640,2026-10-07,Wednesday,Inbound,640,Express,08:24,6,Arlington Heights,observed_stop,6,0,29,6
+2026-10-07_inbound_640,2026-10-07,Wednesday,Inbound,640,Express,08:24,7,Mt. Prospect,observed_stop,5,0,34,6
+2026-10-07_inbound_640,2026-10-07,Wednesday,Inbound,640,Express,08:24,8,Cumberland,observed_stop,2,0,36,6
+2026-10-07_inbound_640,2026-10-07,Wednesday,Inbound,640,Express,08:24,9,Des Plaines,observed_stop,5,0,41,6
+2026-10-07_inbound_640,2026-10-07,Wednesday,Inbound,640,Express,08:24,10,Jefferson Park,observed_stop,2,2,41,6
+2026-10-07_inbound_640,2026-10-07,Wednesday,Inbound,640,Express,08:24,11,Clybourn,observed_stop,0,3,38,6
+2026-10-07_inbound_640,2026-10-07,Wednesday,Inbound,640,Express,08:24,12,Chicago OTC,terminal_checkpoint,,,38,6
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,1,Cary,observed_stop,3,0,4,1
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,2,Fox River Grove,observed_stop,0,0,4,1
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,3,Barrington,observed_stop,2,0,6,1
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,4,Palatine,observed_stop,8,0,14,1
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,5,Arlington Park,observed_stop,4,0,18,1
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,6,Arlington Heights,observed_stop,3,0,21,1
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,7,Mt. Prospect,observed_stop,3,0,24,1
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,8,Cumberland,observed_stop,1,0,25,1
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,9,Des Plaines,observed_stop,2,1,26,1
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,10,Dee Road,observed_stop,4,0,30,1
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,11,Park Ridge,observed_stop,5,0,35,1
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,12,Edison Park,observed_stop,5,1,39,1
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,13,Norwood Park,observed_stop,0,0,39,1
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,14,Gladstone Park,observed_stop,0,0,39,1
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,15,Jefferson Park,observed_stop,5,0,44,1
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,16,Irving Park,observed_stop,2,0,46,1
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,17,Clybourn,observed_stop,2,2,46,1
+2026-10-08_inbound_638,2026-10-08,Thursday,Inbound,638,Non-express,07:54,18,Chicago OTC,terminal_checkpoint,,,46,1
+2026-10-09_inbound_640,2026-10-09,Friday,Inbound,640,Express,08:24,1,Cary,observed_stop,2,0,10,8
+2026-10-09_inbound_640,2026-10-09,Friday,Inbound,640,Express,08:24,2,Fox River Grove,observed_stop,1,0,11,8
+2026-10-09_inbound_640,2026-10-09,Friday,Inbound,640,Express,08:24,3,Barrington,observed_stop,1,0,12,8
+2026-10-09_inbound_640,2026-10-09,Friday,Inbound,640,Express,08:24,4,Palatine,observed_stop,9,0,21,8
+2026-10-09_inbound_640,2026-10-09,Friday,Inbound,640,Express,08:24,5,Arlington Park,observed_stop,1,0,22,8
+2026-10-09_inbound_640,2026-10-09,Friday,Inbound,640,Express,08:24,6,Arlington Heights,observed_stop,6,0,28,8
+2026-10-09_inbound_640,2026-10-09,Friday,Inbound,640,Express,08:24,7,Mt. Prospect,observed_stop,4,0,32,8
+2026-10-09_inbound_640,2026-10-09,Friday,Inbound,640,Express,08:24,8,Cumberland,observed_stop,3,0,35,8
+2026-10-09_inbound_640,2026-10-09,Friday,Inbound,640,Express,08:24,9,Des Plaines,observed_stop,4,0,39,8
+2026-10-09_inbound_640,2026-10-09,Friday,Inbound,640,Express,08:24,10,Jefferson Park,observed_stop,2,2,39,8
+2026-10-09_inbound_640,2026-10-09,Friday,Inbound,640,Express,08:24,11,Clybourn,observed_stop,0,3,36,8
+2026-10-09_inbound_640,2026-10-09,Friday,Inbound,640,Express,08:24,12,Chicago OTC,terminal_checkpoint,,,36,8
+2026-10-12_inbound_640,2026-10-12,Monday,Inbound,640,Express,08:24,1,Cary,observed_stop,2,0,8,6
+2026-10-12_inbound_640,2026-10-12,Monday,Inbound,640,Express,08:24,2,Fox River Grove,observed_stop,1,0,9,6
+2026-10-12_inbound_640,2026-10-12,Monday,Inbound,640,Express,08:24,3,Barrington,observed_stop,5,0,14,6
+2026-10-12_inbound_640,2026-10-12,Monday,Inbound,640,Express,08:24,4,Palatine,observed_stop,8,0,22,6
+2026-10-12_inbound_640,2026-10-12,Monday,Inbound,640,Express,08:24,5,Arlington Park,observed_stop,2,0,24,6
+2026-10-12_inbound_640,2026-10-12,Monday,Inbound,640,Express,08:24,6,Arlington Heights,observed_stop,5,0,29,6
+2026-10-12_inbound_640,2026-10-12,Monday,Inbound,640,Express,08:24,7,Mt. Prospect,observed_stop,5,0,34,6
+2026-10-12_inbound_640,2026-10-12,Monday,Inbound,640,Express,08:24,8,Cumberland,observed_stop,0,0,34,6
+2026-10-12_inbound_640,2026-10-12,Monday,Inbound,640,Express,08:24,9,Des Plaines,observed_stop,3,0,37,6
+2026-10-12_inbound_640,2026-10-12,Monday,Inbound,640,Express,08:24,10,Jefferson Park,observed_stop,0,1,36,6
+2026-10-12_inbound_640,2026-10-12,Monday,Inbound,640,Express,08:24,11,Clybourn,observed_stop,0,2,34,6
+2026-10-12_inbound_640,2026-10-12,Monday,Inbound,640,Express,08:24,12,Chicago OTC,terminal_checkpoint,,,34,6
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,1,Cary,observed_stop,4,0,5,1
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,2,Fox River Grove,observed_stop,2,0,7,1
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,3,Barrington,observed_stop,2,0,9,1
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,4,Palatine,observed_stop,6,0,15,1
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,5,Arlington Park,observed_stop,2,0,17,1
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,6,Arlington Heights,observed_stop,4,0,21,1
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,7,Mt. Prospect,observed_stop,3,0,24,1
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,8,Cumberland,observed_stop,2,0,26,1
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,9,Des Plaines,observed_stop,1,1,26,1
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,10,Dee Road,observed_stop,3,0,29,1
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,11,Park Ridge,observed_stop,3,0,32,1
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,12,Edison Park,observed_stop,6,0,38,1
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,13,Norwood Park,observed_stop,1,0,39,1
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,14,Gladstone Park,observed_stop,3,0,42,1
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,15,Jefferson Park,observed_stop,2,0,44,1
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,16,Irving Park,observed_stop,1,0,45,1
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,17,Clybourn,observed_stop,0,2,43,1
+2026-10-13_inbound_638,2026-10-13,Tuesday,Inbound,638,Non-express,07:54,18,Chicago OTC,terminal_checkpoint,,,43,1
+2026-10-14_inbound_640,2026-10-14,Wednesday,Inbound,640,Express,08:24,1,Cary,observed_stop,2,0,7,5
+2026-10-14_inbound_640,2026-10-14,Wednesday,Inbound,640,Express,08:24,2,Fox River Grove,observed_stop,0,0,7,5
+2026-10-14_inbound_640,2026-10-14,Wednesday,Inbound,640,Express,08:24,3,Barrington,observed_stop,3,0,10,5
+2026-10-14_inbound_640,2026-10-14,Wednesday,Inbound,640,Express,08:24,4,Palatine,observed_stop,10,0,20,5
+2026-10-14_inbound_640,2026-10-14,Wednesday,Inbound,640,Express,08:24,5,Arlington Park,observed_stop,3,1,22,5
+2026-10-14_inbound_640,2026-10-14,Wednesday,Inbound,640,Express,08:24,6,Arlington Heights,observed_stop,4,0,26,5
+2026-10-14_inbound_640,2026-10-14,Wednesday,Inbound,640,Express,08:24,7,Mt. Prospect,observed_stop,5,0,31,5
+2026-10-14_inbound_640,2026-10-14,Wednesday,Inbound,640,Express,08:24,8,Cumberland,observed_stop,0,0,31,5
+2026-10-14_inbound_640,2026-10-14,Wednesday,Inbound,640,Express,08:24,9,Des Plaines,observed_stop,3,0,34,5
+2026-10-14_inbound_640,2026-10-14,Wednesday,Inbound,640,Express,08:24,10,Jefferson Park,observed_stop,1,2,33,5
+2026-10-14_inbound_640,2026-10-14,Wednesday,Inbound,640,Express,08:24,11,Clybourn,observed_stop,2,4,31,5
+2026-10-14_inbound_640,2026-10-14,Wednesday,Inbound,640,Express,08:24,12,Chicago OTC,terminal_checkpoint,,,31,5
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,1,Cary,observed_stop,2,0,4,2
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,2,Fox River Grove,observed_stop,0,0,4,2
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,3,Barrington,observed_stop,2,0,6,2
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,4,Palatine,observed_stop,6,0,12,2
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,5,Arlington Park,observed_stop,3,0,15,2
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,6,Arlington Heights,observed_stop,5,0,20,2
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,7,Mt. Prospect,observed_stop,2,0,22,2
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,8,Cumberland,observed_stop,2,0,24,2
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,9,Des Plaines,observed_stop,3,1,26,2
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,10,Dee Road,observed_stop,8,0,34,2
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,11,Park Ridge,observed_stop,3,0,37,2
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,12,Edison Park,observed_stop,3,1,39,2
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,13,Norwood Park,observed_stop,2,0,41,2
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,14,Gladstone Park,observed_stop,2,0,43,2
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,15,Jefferson Park,observed_stop,4,0,47,2
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,16,Irving Park,observed_stop,1,0,48,2
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,17,Clybourn,observed_stop,3,3,48,2
+2026-10-15_inbound_638,2026-10-15,Thursday,Inbound,638,Non-express,07:54,18,Chicago OTC,terminal_checkpoint,,,48,2
+2026-10-16_inbound_640,2026-10-16,Friday,Inbound,640,Express,08:24,1,Cary,observed_stop,1,0,7,6
+2026-10-16_inbound_640,2026-10-16,Friday,Inbound,640,Express,08:24,2,Fox River Grove,observed_stop,2,0,9,6
+2026-10-16_inbound_640,2026-10-16,Friday,Inbound,640,Express,08:24,3,Barrington,observed_stop,4,0,13,6
+2026-10-16_inbound_640,2026-10-16,Friday,Inbound,640,Express,08:24,4,Palatine,observed_stop,9,0,22,6
+2026-10-16_inbound_640,2026-10-16,Friday,Inbound,640,Express,08:24,5,Arlington Park,observed_stop,0,1,21,6
+2026-10-16_inbound_640,2026-10-16,Friday,Inbound,640,Express,08:24,6,Arlington Heights,observed_stop,7,0,28,6
+2026-10-16_inbound_640,2026-10-16,Friday,Inbound,640,Express,08:24,7,Mt. Prospect,observed_stop,5,0,33,6
+2026-10-16_inbound_640,2026-10-16,Friday,Inbound,640,Express,08:24,8,Cumberland,observed_stop,1,0,34,6
+2026-10-16_inbound_640,2026-10-16,Friday,Inbound,640,Express,08:24,9,Des Plaines,observed_stop,5,0,39,6
+2026-10-16_inbound_640,2026-10-16,Friday,Inbound,640,Express,08:24,10,Jefferson Park,observed_stop,3,1,41,6
+2026-10-16_inbound_640,2026-10-16,Friday,Inbound,640,Express,08:24,11,Clybourn,observed_stop,0,2,39,6
+2026-10-16_inbound_640,2026-10-16,Friday,Inbound,640,Express,08:24,12,Chicago OTC,terminal_checkpoint,,,39,6
+2026-10-19_inbound_640,2026-10-19,Monday,Inbound,640,Express,08:24,1,Cary,observed_stop,4,0,12,8
+2026-10-19_inbound_640,2026-10-19,Monday,Inbound,640,Express,08:24,2,Fox River Grove,observed_stop,0,0,12,8
+2026-10-19_inbound_640,2026-10-19,Monday,Inbound,640,Express,08:24,3,Barrington,observed_stop,2,0,14,8
+2026-10-19_inbound_640,2026-10-19,Monday,Inbound,640,Express,08:24,4,Palatine,observed_stop,8,0,22,8
+2026-10-19_inbound_640,2026-10-19,Monday,Inbound,640,Express,08:24,5,Arlington Park,observed_stop,2,0,24,8
+2026-10-19_inbound_640,2026-10-19,Monday,Inbound,640,Express,08:24,6,Arlington Heights,observed_stop,7,0,31,8
+2026-10-19_inbound_640,2026-10-19,Monday,Inbound,640,Express,08:24,7,Mt. Prospect,observed_stop,7,0,38,8
+2026-10-19_inbound_640,2026-10-19,Monday,Inbound,640,Express,08:24,8,Cumberland,observed_stop,3,0,41,8
+2026-10-19_inbound_640,2026-10-19,Monday,Inbound,640,Express,08:24,9,Des Plaines,observed_stop,4,0,45,8
+2026-10-19_inbound_640,2026-10-19,Monday,Inbound,640,Express,08:24,10,Jefferson Park,observed_stop,0,2,43,8
+2026-10-19_inbound_640,2026-10-19,Monday,Inbound,640,Express,08:24,11,Clybourn,observed_stop,1,3,41,8
+2026-10-19_inbound_640,2026-10-19,Monday,Inbound,640,Express,08:24,12,Chicago OTC,terminal_checkpoint,,,41,8
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,1,Cary,observed_stop,1,0,4,3
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,2,Fox River Grove,observed_stop,0,0,4,3
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,3,Barrington,observed_stop,4,0,8,3
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,4,Palatine,observed_stop,5,0,13,3
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,5,Arlington Park,observed_stop,4,0,17,3
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,6,Arlington Heights,observed_stop,4,0,21,3
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,7,Mt. Prospect,observed_stop,4,0,25,3
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,8,Cumberland,observed_stop,0,0,25,3
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,9,Des Plaines,observed_stop,1,2,24,3
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,10,Dee Road,observed_stop,5,0,29,3
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,11,Park Ridge,observed_stop,5,0,34,3
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,12,Edison Park,observed_stop,5,0,39,3
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,13,Norwood Park,observed_stop,0,0,39,3
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,14,Gladstone Park,observed_stop,1,0,40,3
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,15,Jefferson Park,observed_stop,4,0,44,3
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,16,Irving Park,observed_stop,1,0,45,3
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,17,Clybourn,observed_stop,2,1,46,3
+2026-10-20_inbound_638,2026-10-20,Tuesday,Inbound,638,Non-express,07:54,18,Chicago OTC,terminal_checkpoint,,,46,3
+2026-10-21_inbound_640,2026-10-21,Wednesday,Inbound,640,Express,08:24,1,Cary,observed_stop,2,0,9,7
+2026-10-21_inbound_640,2026-10-21,Wednesday,Inbound,640,Express,08:24,2,Fox River Grove,observed_stop,2,0,11,7
+2026-10-21_inbound_640,2026-10-21,Wednesday,Inbound,640,Express,08:24,3,Barrington,observed_stop,0,0,11,7
+2026-10-21_inbound_640,2026-10-21,Wednesday,Inbound,640,Express,08:24,4,Palatine,observed_stop,7,2,16,7
+2026-10-21_inbound_640,2026-10-21,Wednesday,Inbound,640,Express,08:24,5,Arlington Park,observed_stop,1,0,17,7
+2026-10-21_inbound_640,2026-10-21,Wednesday,Inbound,640,Express,08:24,6,Arlington Heights,observed_stop,7,0,24,7
+2026-10-21_inbound_640,2026-10-21,Wednesday,Inbound,640,Express,08:24,7,Mt. Prospect,observed_stop,2,0,26,7
+2026-10-21_inbound_640,2026-10-21,Wednesday,Inbound,640,Express,08:24,8,Cumberland,observed_stop,2,0,28,7
+2026-10-21_inbound_640,2026-10-21,Wednesday,Inbound,640,Express,08:24,9,Des Plaines,observed_stop,4,0,32,7
+2026-10-21_inbound_640,2026-10-21,Wednesday,Inbound,640,Express,08:24,10,Jefferson Park,observed_stop,1,2,31,7
+2026-10-21_inbound_640,2026-10-21,Wednesday,Inbound,640,Express,08:24,11,Clybourn,observed_stop,0,4,27,7
+2026-10-21_inbound_640,2026-10-21,Wednesday,Inbound,640,Express,08:24,12,Chicago OTC,terminal_checkpoint,,,27,7
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,1,Cary,observed_stop,3,0,6,3
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,2,Fox River Grove,observed_stop,0,0,6,3
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,3,Barrington,observed_stop,4,0,10,3
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,4,Palatine,observed_stop,8,0,18,3
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,5,Arlington Park,observed_stop,4,0,22,3
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,6,Arlington Heights,observed_stop,5,0,27,3
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,7,Mt. Prospect,observed_stop,1,0,28,3
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,8,Cumberland,observed_stop,1,0,29,3
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,9,Des Plaines,observed_stop,1,2,28,3
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,10,Dee Road,observed_stop,5,0,33,3
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,11,Park Ridge,observed_stop,4,0,37,3
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,12,Edison Park,observed_stop,6,1,42,3
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,13,Norwood Park,observed_stop,2,0,44,3
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,14,Gladstone Park,observed_stop,2,0,46,3
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,15,Jefferson Park,observed_stop,4,0,50,3
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,16,Irving Park,observed_stop,1,0,51,3
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,17,Clybourn,observed_stop,2,2,51,3
+2026-10-22_inbound_638,2026-10-22,Thursday,Inbound,638,Non-express,07:54,18,Chicago OTC,terminal_checkpoint,,,51,3
+2026-10-23_inbound_640,2026-10-23,Friday,Inbound,640,Express,08:24,1,Cary,observed_stop,2,0,9,7
+2026-10-23_inbound_640,2026-10-23,Friday,Inbound,640,Express,08:24,2,Fox River Grove,observed_stop,0,0,9,7
+2026-10-23_inbound_640,2026-10-23,Friday,Inbound,640,Express,08:24,3,Barrington,observed_stop,3,0,12,7
+2026-10-23_inbound_640,2026-10-23,Friday,Inbound,640,Express,08:24,4,Palatine,observed_stop,10,1,21,7
+2026-10-23_inbound_640,2026-10-23,Friday,Inbound,640,Express,08:24,5,Arlington Park,observed_stop,3,1,23,7
+2026-10-23_inbound_640,2026-10-23,Friday,Inbound,640,Express,08:24,6,Arlington Heights,observed_stop,6,0,29,7
+2026-10-23_inbound_640,2026-10-23,Friday,Inbound,640,Express,08:24,7,Mt. Prospect,observed_stop,4,0,33,7
+2026-10-23_inbound_640,2026-10-23,Friday,Inbound,640,Express,08:24,8,Cumberland,observed_stop,2,0,35,7
+2026-10-23_inbound_640,2026-10-23,Friday,Inbound,640,Express,08:24,9,Des Plaines,observed_stop,5,0,40,7
+2026-10-23_inbound_640,2026-10-23,Friday,Inbound,640,Express,08:24,10,Jefferson Park,observed_stop,1,1,40,7
+2026-10-23_inbound_640,2026-10-23,Friday,Inbound,640,Express,08:24,11,Clybourn,observed_stop,0,2,38,7
+2026-10-23_inbound_640,2026-10-23,Friday,Inbound,640,Express,08:24,12,Chicago OTC,terminal_checkpoint,,,38,7
+2026-09-21_outbound_627,2026-09-21,Monday,Outbound,627,Non-express,12:35,1,Chicago OTC,observed_stop,23,0,23,23
+2026-09-21_outbound_627,2026-09-21,Monday,Outbound,627,Non-express,12:35,2,Clybourn,observed_stop,1,0,24,23
+2026-09-21_outbound_627,2026-09-21,Monday,Outbound,627,Non-express,12:35,3,Irving Park,observed_stop,1,1,24,23
+2026-09-21_outbound_627,2026-09-21,Monday,Outbound,627,Non-express,12:35,4,Jefferson Park,observed_stop,2,1,25,23
+2026-09-21_outbound_627,2026-09-21,Monday,Outbound,627,Non-express,12:35,5,Norwood Park,observed_stop,0,1,24,23
+2026-09-21_outbound_627,2026-09-21,Monday,Outbound,627,Non-express,12:35,6,Park Ridge,observed_stop,0,0,24,23
+2026-09-21_outbound_627,2026-09-21,Monday,Outbound,627,Non-express,12:35,7,Dee Road,observed_stop,0,0,24,23
+2026-09-21_outbound_627,2026-09-21,Monday,Outbound,627,Non-express,12:35,8,Des Plaines,observed_stop,0,2,22,23
+2026-09-21_outbound_627,2026-09-21,Monday,Outbound,627,Non-express,12:35,9,Cumberland,observed_stop,0,0,22,23
+2026-09-21_outbound_627,2026-09-21,Monday,Outbound,627,Non-express,12:35,10,Mt. Prospect,observed_stop,1,3,20,23
+2026-09-21_outbound_627,2026-09-21,Monday,Outbound,627,Non-express,12:35,11,Arlington Heights,observed_stop,0,2,18,23
+2026-09-21_outbound_627,2026-09-21,Monday,Outbound,627,Non-express,12:35,12,Arlington Park,observed_stop,0,5,13,23
+2026-09-21_outbound_627,2026-09-21,Monday,Outbound,627,Non-express,12:35,13,Palatine,observed_stop,0,7,6,23
+2026-09-21_outbound_627,2026-09-21,Monday,Outbound,627,Non-express,12:35,14,Barrington,observed_stop,0,0,6,23
+2026-09-21_outbound_627,2026-09-21,Monday,Outbound,627,Non-express,12:35,15,Fox River Grove,observed_stop,0,0,6,23
+2026-09-21_outbound_627,2026-09-21,Monday,Outbound,627,Non-express,12:35,16,Cary,observed_stop,0,4,2,23
+2026-09-22_outbound_655,2026-09-22,Tuesday,Outbound,655,Express,17:15,1,Chicago OTC,observed_stop,42,0,42,42
+2026-09-22_outbound_655,2026-09-22,Tuesday,Outbound,655,Express,17:15,2,Palatine,observed_stop,0,15,27,42
+2026-09-22_outbound_655,2026-09-22,Tuesday,Outbound,655,Express,17:15,3,Barrington,observed_stop,0,10,17,42
+2026-09-22_outbound_655,2026-09-22,Tuesday,Outbound,655,Express,17:15,4,Fox River Grove,observed_stop,0,8,9,42
+2026-09-22_outbound_655,2026-09-22,Tuesday,Outbound,655,Express,17:15,5,Cary,observed_stop,0,6,3,42
+2026-09-23_outbound_627,2026-09-23,Wednesday,Outbound,627,Non-express,12:35,1,Chicago OTC,observed_stop,32,0,32,32
+2026-09-23_outbound_627,2026-09-23,Wednesday,Outbound,627,Non-express,12:35,2,Clybourn,observed_stop,1,0,33,32
+2026-09-23_outbound_627,2026-09-23,Wednesday,Outbound,627,Non-express,12:35,3,Irving Park,observed_stop,1,1,33,32
+2026-09-23_outbound_627,2026-09-23,Wednesday,Outbound,627,Non-express,12:35,4,Jefferson Park,observed_stop,2,1,34,32
+2026-09-23_outbound_627,2026-09-23,Wednesday,Outbound,627,Non-express,12:35,5,Norwood Park,observed_stop,0,1,33,32
+2026-09-23_outbound_627,2026-09-23,Wednesday,Outbound,627,Non-express,12:35,6,Park Ridge,observed_stop,0,1,32,32
+2026-09-23_outbound_627,2026-09-23,Wednesday,Outbound,627,Non-express,12:35,7,Dee Road,observed_stop,0,1,31,32
+2026-09-23_outbound_627,2026-09-23,Wednesday,Outbound,627,Non-express,12:35,8,Des Plaines,observed_stop,0,2,29,32
+2026-09-23_outbound_627,2026-09-23,Wednesday,Outbound,627,Non-express,12:35,9,Cumberland,observed_stop,0,2,27,32
+2026-09-23_outbound_627,2026-09-23,Wednesday,Outbound,627,Non-express,12:35,10,Mt. Prospect,observed_stop,0,1,26,32
+2026-09-23_outbound_627,2026-09-23,Wednesday,Outbound,627,Non-express,12:35,11,Arlington Heights,observed_stop,0,2,24,32
+2026-09-23_outbound_627,2026-09-23,Wednesday,Outbound,627,Non-express,12:35,12,Arlington Park,observed_stop,0,5,19,32
+2026-09-23_outbound_627,2026-09-23,Wednesday,Outbound,627,Non-express,12:35,13,Palatine,observed_stop,0,7,12,32
+2026-09-23_outbound_627,2026-09-23,Wednesday,Outbound,627,Non-express,12:35,14,Barrington,observed_stop,0,3,9,32
+2026-09-23_outbound_627,2026-09-23,Wednesday,Outbound,627,Non-express,12:35,15,Fox River Grove,observed_stop,0,2,7,32
+2026-09-23_outbound_627,2026-09-23,Wednesday,Outbound,627,Non-express,12:35,16,Cary,observed_stop,0,3,4,32
+2026-09-24_outbound_655,2026-09-24,Thursday,Outbound,655,Express,17:15,1,Chicago OTC,observed_stop,44,0,44,44
+2026-09-24_outbound_655,2026-09-24,Thursday,Outbound,655,Express,17:15,2,Palatine,observed_stop,0,16,28,44
+2026-09-24_outbound_655,2026-09-24,Thursday,Outbound,655,Express,17:15,3,Barrington,observed_stop,0,10,18,44
+2026-09-24_outbound_655,2026-09-24,Thursday,Outbound,655,Express,17:15,4,Fox River Grove,observed_stop,0,8,10,44
+2026-09-24_outbound_655,2026-09-24,Thursday,Outbound,655,Express,17:15,5,Cary,observed_stop,0,8,2,44
+2026-09-25_outbound_627,2026-09-25,Friday,Outbound,627,Non-express,12:35,1,Chicago OTC,observed_stop,32,0,32,32
+2026-09-25_outbound_627,2026-09-25,Friday,Outbound,627,Non-express,12:35,2,Clybourn,observed_stop,1,1,32,32
+2026-09-25_outbound_627,2026-09-25,Friday,Outbound,627,Non-express,12:35,3,Irving Park,observed_stop,2,0,34,32
+2026-09-25_outbound_627,2026-09-25,Friday,Outbound,627,Non-express,12:35,4,Jefferson Park,observed_stop,3,1,36,32
+2026-09-25_outbound_627,2026-09-25,Friday,Outbound,627,Non-express,12:35,5,Norwood Park,observed_stop,0,1,35,32
+2026-09-25_outbound_627,2026-09-25,Friday,Outbound,627,Non-express,12:35,6,Park Ridge,observed_stop,0,2,33,32
+2026-09-25_outbound_627,2026-09-25,Friday,Outbound,627,Non-express,12:35,7,Dee Road,observed_stop,0,0,33,32
+2026-09-25_outbound_627,2026-09-25,Friday,Outbound,627,Non-express,12:35,8,Des Plaines,observed_stop,0,1,32,32
+2026-09-25_outbound_627,2026-09-25,Friday,Outbound,627,Non-express,12:35,9,Cumberland,observed_stop,0,0,32,32
+2026-09-25_outbound_627,2026-09-25,Friday,Outbound,627,Non-express,12:35,10,Mt. Prospect,observed_stop,0,3,29,32
+2026-09-25_outbound_627,2026-09-25,Friday,Outbound,627,Non-express,12:35,11,Arlington Heights,observed_stop,0,4,25,32
+2026-09-25_outbound_627,2026-09-25,Friday,Outbound,627,Non-express,12:35,12,Arlington Park,observed_stop,0,4,21,32
+2026-09-25_outbound_627,2026-09-25,Friday,Outbound,627,Non-express,12:35,13,Palatine,observed_stop,0,6,15,32
+2026-09-25_outbound_627,2026-09-25,Friday,Outbound,627,Non-express,12:35,14,Barrington,observed_stop,0,4,11,32
+2026-09-25_outbound_627,2026-09-25,Friday,Outbound,627,Non-express,12:35,15,Fox River Grove,observed_stop,0,2,9,32
+2026-09-25_outbound_627,2026-09-25,Friday,Outbound,627,Non-express,12:35,16,Cary,observed_stop,0,5,4,32
+2026-09-28_outbound_627,2026-09-28,Monday,Outbound,627,Non-express,12:35,1,Chicago OTC,observed_stop,21,0,21,21
+2026-09-28_outbound_627,2026-09-28,Monday,Outbound,627,Non-express,12:35,2,Clybourn,observed_stop,1,0,22,21
+2026-09-28_outbound_627,2026-09-28,Monday,Outbound,627,Non-express,12:35,3,Irving Park,observed_stop,0,1,21,21
+2026-09-28_outbound_627,2026-09-28,Monday,Outbound,627,Non-express,12:35,4,Jefferson Park,observed_stop,3,1,23,21
+2026-09-28_outbound_627,2026-09-28,Monday,Outbound,627,Non-express,12:35,5,Norwood Park,observed_stop,0,0,23,21
+2026-09-28_outbound_627,2026-09-28,Monday,Outbound,627,Non-express,12:35,6,Park Ridge,observed_stop,0,1,22,21
+2026-09-28_outbound_627,2026-09-28,Monday,Outbound,627,Non-express,12:35,7,Dee Road,observed_stop,0,0,22,21
+2026-09-28_outbound_627,2026-09-28,Monday,Outbound,627,Non-express,12:35,8,Des Plaines,observed_stop,0,0,22,21
+2026-09-28_outbound_627,2026-09-28,Monday,Outbound,627,Non-express,12:35,9,Cumberland,observed_stop,0,0,22,21
+2026-09-28_outbound_627,2026-09-28,Monday,Outbound,627,Non-express,12:35,10,Mt. Prospect,observed_stop,0,3,19,21
+2026-09-28_outbound_627,2026-09-28,Monday,Outbound,627,Non-express,12:35,11,Arlington Heights,observed_stop,0,3,16,21
+2026-09-28_outbound_627,2026-09-28,Monday,Outbound,627,Non-express,12:35,12,Arlington Park,observed_stop,0,6,10,21
+2026-09-28_outbound_627,2026-09-28,Monday,Outbound,627,Non-express,12:35,13,Palatine,observed_stop,0,6,4,21
+2026-09-28_outbound_627,2026-09-28,Monday,Outbound,627,Non-express,12:35,14,Barrington,observed_stop,0,0,4,21
+2026-09-28_outbound_627,2026-09-28,Monday,Outbound,627,Non-express,12:35,15,Fox River Grove,observed_stop,0,0,4,21
+2026-09-28_outbound_627,2026-09-28,Monday,Outbound,627,Non-express,12:35,16,Cary,observed_stop,0,3,1,21
+2026-09-29_outbound_655,2026-09-29,Tuesday,Outbound,655,Express,17:15,1,Chicago OTC,observed_stop,41,0,41,41
+2026-09-29_outbound_655,2026-09-29,Tuesday,Outbound,655,Express,17:15,2,Palatine,observed_stop,0,14,27,41
+2026-09-29_outbound_655,2026-09-29,Tuesday,Outbound,655,Express,17:15,3,Barrington,observed_stop,0,10,17,41
+2026-09-29_outbound_655,2026-09-29,Tuesday,Outbound,655,Express,17:15,4,Fox River Grove,observed_stop,0,8,9,41
+2026-09-29_outbound_655,2026-09-29,Tuesday,Outbound,655,Express,17:15,5,Cary,observed_stop,0,6,3,41
+2026-09-30_outbound_627,2026-09-30,Wednesday,Outbound,627,Non-express,12:35,1,Chicago OTC,observed_stop,34,0,34,34
+2026-09-30_outbound_627,2026-09-30,Wednesday,Outbound,627,Non-express,12:35,2,Clybourn,observed_stop,2,1,35,34
+2026-09-30_outbound_627,2026-09-30,Wednesday,Outbound,627,Non-express,12:35,3,Irving Park,observed_stop,0,0,35,34
+2026-09-30_outbound_627,2026-09-30,Wednesday,Outbound,627,Non-express,12:35,4,Jefferson Park,observed_stop,1,1,35,34
+2026-09-30_outbound_627,2026-09-30,Wednesday,Outbound,627,Non-express,12:35,5,Norwood Park,observed_stop,0,1,34,34
+2026-09-30_outbound_627,2026-09-30,Wednesday,Outbound,627,Non-express,12:35,6,Park Ridge,observed_stop,0,2,32,34
+2026-09-30_outbound_627,2026-09-30,Wednesday,Outbound,627,Non-express,12:35,7,Dee Road,observed_stop,0,1,31,34
+2026-09-30_outbound_627,2026-09-30,Wednesday,Outbound,627,Non-express,12:35,8,Des Plaines,observed_stop,0,0,31,34
+2026-09-30_outbound_627,2026-09-30,Wednesday,Outbound,627,Non-express,12:35,9,Cumberland,observed_stop,0,2,29,34
+2026-09-30_outbound_627,2026-09-30,Wednesday,Outbound,627,Non-express,12:35,10,Mt. Prospect,observed_stop,0,2,27,34
+2026-09-30_outbound_627,2026-09-30,Wednesday,Outbound,627,Non-express,12:35,11,Arlington Heights,observed_stop,0,4,23,34
+2026-09-30_outbound_627,2026-09-30,Wednesday,Outbound,627,Non-express,12:35,12,Arlington Park,observed_stop,0,4,19,34
+2026-09-30_outbound_627,2026-09-30,Wednesday,Outbound,627,Non-express,12:35,13,Palatine,observed_stop,0,7,12,34
+2026-09-30_outbound_627,2026-09-30,Wednesday,Outbound,627,Non-express,12:35,14,Barrington,observed_stop,0,3,9,34
+2026-09-30_outbound_627,2026-09-30,Wednesday,Outbound,627,Non-express,12:35,15,Fox River Grove,observed_stop,0,1,8,34
+2026-09-30_outbound_627,2026-09-30,Wednesday,Outbound,627,Non-express,12:35,16,Cary,observed_stop,0,5,3,34
+2026-10-01_outbound_655,2026-10-01,Thursday,Outbound,655,Express,17:15,1,Chicago OTC,observed_stop,40,0,40,40
+2026-10-01_outbound_655,2026-10-01,Thursday,Outbound,655,Express,17:15,2,Palatine,observed_stop,0,16,24,40
+2026-10-01_outbound_655,2026-10-01,Thursday,Outbound,655,Express,17:15,3,Barrington,observed_stop,0,9,15,40
+2026-10-01_outbound_655,2026-10-01,Thursday,Outbound,655,Express,17:15,4,Fox River Grove,observed_stop,0,5,10,40
+2026-10-01_outbound_655,2026-10-01,Thursday,Outbound,655,Express,17:15,5,Cary,observed_stop,0,8,2,40
+2026-10-02_outbound_627,2026-10-02,Friday,Outbound,627,Non-express,12:35,1,Chicago OTC,observed_stop,30,0,30,30
+2026-10-02_outbound_627,2026-10-02,Friday,Outbound,627,Non-express,12:35,2,Clybourn,observed_stop,0,1,29,30
+2026-10-02_outbound_627,2026-10-02,Friday,Outbound,627,Non-express,12:35,3,Irving Park,observed_stop,2,0,31,30
+2026-10-02_outbound_627,2026-10-02,Friday,Outbound,627,Non-express,12:35,4,Jefferson Park,observed_stop,1,1,31,30
+2026-10-02_outbound_627,2026-10-02,Friday,Outbound,627,Non-express,12:35,5,Norwood Park,observed_stop,0,1,30,30
+2026-10-02_outbound_627,2026-10-02,Friday,Outbound,627,Non-express,12:35,6,Park Ridge,observed_stop,0,0,30,30
+2026-10-02_outbound_627,2026-10-02,Friday,Outbound,627,Non-express,12:35,7,Dee Road,observed_stop,0,1,29,30
+2026-10-02_outbound_627,2026-10-02,Friday,Outbound,627,Non-express,12:35,8,Des Plaines,observed_stop,0,2,27,30
+2026-10-02_outbound_627,2026-10-02,Friday,Outbound,627,Non-express,12:35,9,Cumberland,observed_stop,0,1,26,30
+2026-10-02_outbound_627,2026-10-02,Friday,Outbound,627,Non-express,12:35,10,Mt. Prospect,observed_stop,1,1,26,30
+2026-10-02_outbound_627,2026-10-02,Friday,Outbound,627,Non-express,12:35,11,Arlington Heights,observed_stop,0,2,24,30
+2026-10-02_outbound_627,2026-10-02,Friday,Outbound,627,Non-express,12:35,12,Arlington Park,observed_stop,0,3,21,30
+2026-10-02_outbound_627,2026-10-02,Friday,Outbound,627,Non-express,12:35,13,Palatine,observed_stop,0,7,14,30
+2026-10-02_outbound_627,2026-10-02,Friday,Outbound,627,Non-express,12:35,14,Barrington,observed_stop,0,4,10,30
+2026-10-02_outbound_627,2026-10-02,Friday,Outbound,627,Non-express,12:35,15,Fox River Grove,observed_stop,0,2,8,30
+2026-10-02_outbound_627,2026-10-02,Friday,Outbound,627,Non-express,12:35,16,Cary,observed_stop,0,4,4,30
+2026-10-05_outbound_627,2026-10-05,Monday,Outbound,627,Non-express,12:35,1,Chicago OTC,observed_stop,39,0,39,39
+2026-10-05_outbound_627,2026-10-05,Monday,Outbound,627,Non-express,12:35,2,Clybourn,observed_stop,0,2,37,39
+2026-10-05_outbound_627,2026-10-05,Monday,Outbound,627,Non-express,12:35,3,Irving Park,observed_stop,0,1,36,39
+2026-10-05_outbound_627,2026-10-05,Monday,Outbound,627,Non-express,12:35,4,Jefferson Park,observed_stop,2,2,36,39
+2026-10-05_outbound_627,2026-10-05,Monday,Outbound,627,Non-express,12:35,5,Norwood Park,observed_stop,0,1,35,39
+2026-10-05_outbound_627,2026-10-05,Monday,Outbound,627,Non-express,12:35,6,Park Ridge,observed_stop,0,1,34,39
+2026-10-05_outbound_627,2026-10-05,Monday,Outbound,627,Non-express,12:35,7,Dee Road,observed_stop,0,0,34,39
+2026-10-05_outbound_627,2026-10-05,Monday,Outbound,627,Non-express,12:35,8,Des Plaines,observed_stop,0,1,33,39
+2026-10-05_outbound_627,2026-10-05,Monday,Outbound,627,Non-express,12:35,9,Cumberland,observed_stop,0,3,30,39
+2026-10-05_outbound_627,2026-10-05,Monday,Outbound,627,Non-express,12:35,10,Mt. Prospect,observed_stop,1,4,27,39
+2026-10-05_outbound_627,2026-10-05,Monday,Outbound,627,Non-express,12:35,11,Arlington Heights,observed_stop,0,4,23,39
+2026-10-05_outbound_627,2026-10-05,Monday,Outbound,627,Non-express,12:35,12,Arlington Park,observed_stop,0,2,21,39
+2026-10-05_outbound_627,2026-10-05,Monday,Outbound,627,Non-express,12:35,13,Palatine,observed_stop,0,7,14,39
+2026-10-05_outbound_627,2026-10-05,Monday,Outbound,627,Non-express,12:35,14,Barrington,observed_stop,0,4,10,39
+2026-10-05_outbound_627,2026-10-05,Monday,Outbound,627,Non-express,12:35,15,Fox River Grove,observed_stop,0,2,8,39
+2026-10-05_outbound_627,2026-10-05,Monday,Outbound,627,Non-express,12:35,16,Cary,observed_stop,0,5,3,39
+2026-10-06_outbound_655,2026-10-06,Tuesday,Outbound,655,Express,17:15,1,Chicago OTC,observed_stop,39,0,39,39
+2026-10-06_outbound_655,2026-10-06,Tuesday,Outbound,655,Express,17:15,2,Palatine,observed_stop,0,15,24,39
+2026-10-06_outbound_655,2026-10-06,Tuesday,Outbound,655,Express,17:15,3,Barrington,observed_stop,0,11,13,39
+2026-10-06_outbound_655,2026-10-06,Tuesday,Outbound,655,Express,17:15,4,Fox River Grove,observed_stop,0,4,9,39
+2026-10-06_outbound_655,2026-10-06,Tuesday,Outbound,655,Express,17:15,5,Cary,observed_stop,0,5,4,39
+2026-10-07_outbound_627,2026-10-07,Wednesday,Outbound,627,Non-express,12:35,1,Chicago OTC,observed_stop,26,0,26,26
+2026-10-07_outbound_627,2026-10-07,Wednesday,Outbound,627,Non-express,12:35,2,Clybourn,observed_stop,0,2,24,26
+2026-10-07_outbound_627,2026-10-07,Wednesday,Outbound,627,Non-express,12:35,3,Irving Park,observed_stop,2,1,25,26
+2026-10-07_outbound_627,2026-10-07,Wednesday,Outbound,627,Non-express,12:35,4,Jefferson Park,observed_stop,1,1,25,26
+2026-10-07_outbound_627,2026-10-07,Wednesday,Outbound,627,Non-express,12:35,5,Norwood Park,observed_stop,0,1,24,26
+2026-10-07_outbound_627,2026-10-07,Wednesday,Outbound,627,Non-express,12:35,6,Park Ridge,observed_stop,0,0,24,26
+2026-10-07_outbound_627,2026-10-07,Wednesday,Outbound,627,Non-express,12:35,7,Dee Road,observed_stop,0,1,23,26
+2026-10-07_outbound_627,2026-10-07,Wednesday,Outbound,627,Non-express,12:35,8,Des Plaines,observed_stop,0,1,22,26
+2026-10-07_outbound_627,2026-10-07,Wednesday,Outbound,627,Non-express,12:35,9,Cumberland,observed_stop,0,0,22,26
+2026-10-07_outbound_627,2026-10-07,Wednesday,Outbound,627,Non-express,12:35,10,Mt. Prospect,observed_stop,1,2,21,26
+2026-10-07_outbound_627,2026-10-07,Wednesday,Outbound,627,Non-express,12:35,11,Arlington Heights,observed_stop,0,2,19,26
+2026-10-07_outbound_627,2026-10-07,Wednesday,Outbound,627,Non-express,12:35,12,Arlington Park,observed_stop,0,4,15,26
+2026-10-07_outbound_627,2026-10-07,Wednesday,Outbound,627,Non-express,12:35,13,Palatine,observed_stop,0,6,9,26
+2026-10-07_outbound_627,2026-10-07,Wednesday,Outbound,627,Non-express,12:35,14,Barrington,observed_stop,0,0,9,26
+2026-10-07_outbound_627,2026-10-07,Wednesday,Outbound,627,Non-express,12:35,15,Fox River Grove,observed_stop,0,1,8,26
+2026-10-07_outbound_627,2026-10-07,Wednesday,Outbound,627,Non-express,12:35,16,Cary,observed_stop,0,5,3,26
+2026-10-08_outbound_655,2026-10-08,Thursday,Outbound,655,Express,17:15,1,Chicago OTC,observed_stop,36,0,36,36
+2026-10-08_outbound_655,2026-10-08,Thursday,Outbound,655,Express,17:15,2,Palatine,observed_stop,0,14,22,36
+2026-10-08_outbound_655,2026-10-08,Thursday,Outbound,655,Express,17:15,3,Barrington,observed_stop,0,7,15,36
+2026-10-08_outbound_655,2026-10-08,Thursday,Outbound,655,Express,17:15,4,Fox River Grove,observed_stop,0,5,10,36
+2026-10-08_outbound_655,2026-10-08,Thursday,Outbound,655,Express,17:15,5,Cary,observed_stop,0,8,2,36
+2026-10-09_outbound_627,2026-10-09,Friday,Outbound,627,Non-express,12:35,1,Chicago OTC,observed_stop,31,0,31,31
+2026-10-09_outbound_627,2026-10-09,Friday,Outbound,627,Non-express,12:35,2,Clybourn,observed_stop,2,1,32,31
+2026-10-09_outbound_627,2026-10-09,Friday,Outbound,627,Non-express,12:35,3,Irving Park,observed_stop,2,1,33,31
+2026-10-09_outbound_627,2026-10-09,Friday,Outbound,627,Non-express,12:35,4,Jefferson Park,observed_stop,2,1,34,31
+2026-10-09_outbound_627,2026-10-09,Friday,Outbound,627,Non-express,12:35,5,Norwood Park,observed_stop,0,1,33,31
+2026-10-09_outbound_627,2026-10-09,Friday,Outbound,627,Non-express,12:35,6,Park Ridge,observed_stop,0,0,33,31
+2026-10-09_outbound_627,2026-10-09,Friday,Outbound,627,Non-express,12:35,7,Dee Road,observed_stop,0,0,33,31
+2026-10-09_outbound_627,2026-10-09,Friday,Outbound,627,Non-express,12:35,8,Des Plaines,observed_stop,0,3,30,31
+2026-10-09_outbound_627,2026-10-09,Friday,Outbound,627,Non-express,12:35,9,Cumberland,observed_stop,0,1,29,31
+2026-10-09_outbound_627,2026-10-09,Friday,Outbound,627,Non-express,12:35,10,Mt. Prospect,observed_stop,1,2,28,31
+2026-10-09_outbound_627,2026-10-09,Friday,Outbound,627,Non-express,12:35,11,Arlington Heights,observed_stop,0,4,24,31
+2026-10-09_outbound_627,2026-10-09,Friday,Outbound,627,Non-express,12:35,12,Arlington Park,observed_stop,0,5,19,31
+2026-10-09_outbound_627,2026-10-09,Friday,Outbound,627,Non-express,12:35,13,Palatine,observed_stop,0,7,12,31
+2026-10-09_outbound_627,2026-10-09,Friday,Outbound,627,Non-express,12:35,14,Barrington,observed_stop,0,2,10,31
+2026-10-09_outbound_627,2026-10-09,Friday,Outbound,627,Non-express,12:35,15,Fox River Grove,observed_stop,0,2,8,31
+2026-10-09_outbound_627,2026-10-09,Friday,Outbound,627,Non-express,12:35,16,Cary,observed_stop,0,3,5,31
+2026-10-12_outbound_627,2026-10-12,Monday,Outbound,627,Non-express,12:35,1,Chicago OTC,observed_stop,25,0,25,25
+2026-10-12_outbound_627,2026-10-12,Monday,Outbound,627,Non-express,12:35,2,Clybourn,observed_stop,0,0,25,25
+2026-10-12_outbound_627,2026-10-12,Monday,Outbound,627,Non-express,12:35,3,Irving Park,observed_stop,0,1,24,25
+2026-10-12_outbound_627,2026-10-12,Monday,Outbound,627,Non-express,12:35,4,Jefferson Park,observed_stop,2,1,25,25
+2026-10-12_outbound_627,2026-10-12,Monday,Outbound,627,Non-express,12:35,5,Norwood Park,observed_stop,0,0,25,25
+2026-10-12_outbound_627,2026-10-12,Monday,Outbound,627,Non-express,12:35,6,Park Ridge,observed_stop,0,0,25,25
+2026-10-12_outbound_627,2026-10-12,Monday,Outbound,627,Non-express,12:35,7,Dee Road,observed_stop,0,1,24,25
+2026-10-12_outbound_627,2026-10-12,Monday,Outbound,627,Non-express,12:35,8,Des Plaines,observed_stop,0,0,24,25
+2026-10-12_outbound_627,2026-10-12,Monday,Outbound,627,Non-express,12:35,9,Cumberland,observed_stop,0,1,23,25
+2026-10-12_outbound_627,2026-10-12,Monday,Outbound,627,Non-express,12:35,10,Mt. Prospect,observed_stop,2,0,25,25
+2026-10-12_outbound_627,2026-10-12,Monday,Outbound,627,Non-express,12:35,11,Arlington Heights,observed_stop,0,4,21,25
+2026-10-12_outbound_627,2026-10-12,Monday,Outbound,627,Non-express,12:35,12,Arlington Park,observed_stop,0,2,19,25
+2026-10-12_outbound_627,2026-10-12,Monday,Outbound,627,Non-express,12:35,13,Palatine,observed_stop,0,9,10,25
+2026-10-12_outbound_627,2026-10-12,Monday,Outbound,627,Non-express,12:35,14,Barrington,observed_stop,0,3,7,25
+2026-10-12_outbound_627,2026-10-12,Monday,Outbound,627,Non-express,12:35,15,Fox River Grove,observed_stop,0,3,4,25
+2026-10-12_outbound_627,2026-10-12,Monday,Outbound,627,Non-express,12:35,16,Cary,observed_stop,0,2,2,25
+2026-10-13_outbound_655,2026-10-13,Tuesday,Outbound,655,Express,17:15,1,Chicago OTC,observed_stop,40,0,40,40
+2026-10-13_outbound_655,2026-10-13,Tuesday,Outbound,655,Express,17:15,2,Palatine,observed_stop,0,15,25,40
+2026-10-13_outbound_655,2026-10-13,Tuesday,Outbound,655,Express,17:15,3,Barrington,observed_stop,0,10,15,40
+2026-10-13_outbound_655,2026-10-13,Tuesday,Outbound,655,Express,17:15,4,Fox River Grove,observed_stop,0,7,8,40
+2026-10-13_outbound_655,2026-10-13,Tuesday,Outbound,655,Express,17:15,5,Cary,observed_stop,0,6,2,40
+2026-10-14_outbound_627,2026-10-14,Wednesday,Outbound,627,Non-express,12:35,1,Chicago OTC,observed_stop,22,0,22,22
+2026-10-14_outbound_627,2026-10-14,Wednesday,Outbound,627,Non-express,12:35,2,Clybourn,observed_stop,1,0,23,22
+2026-10-14_outbound_627,2026-10-14,Wednesday,Outbound,627,Non-express,12:35,3,Irving Park,observed_stop,0,1,22,22
+2026-10-14_outbound_627,2026-10-14,Wednesday,Outbound,627,Non-express,12:35,4,Jefferson Park,observed_stop,2,0,24,22
+2026-10-14_outbound_627,2026-10-14,Wednesday,Outbound,627,Non-express,12:35,5,Norwood Park,observed_stop,0,0,24,22
+2026-10-14_outbound_627,2026-10-14,Wednesday,Outbound,627,Non-express,12:35,6,Park Ridge,observed_stop,0,1,23,22
+2026-10-14_outbound_627,2026-10-14,Wednesday,Outbound,627,Non-express,12:35,7,Dee Road,observed_stop,0,0,23,22
+2026-10-14_outbound_627,2026-10-14,Wednesday,Outbound,627,Non-express,12:35,8,Des Plaines,observed_stop,0,0,23,22
+2026-10-14_outbound_627,2026-10-14,Wednesday,Outbound,627,Non-express,12:35,9,Cumberland,observed_stop,0,0,23,22
+2026-10-14_outbound_627,2026-10-14,Wednesday,Outbound,627,Non-express,12:35,10,Mt. Prospect,observed_stop,1,3,21,22
+2026-10-14_outbound_627,2026-10-14,Wednesday,Outbound,627,Non-express,12:35,11,Arlington Heights,observed_stop,0,1,20,22
+2026-10-14_outbound_627,2026-10-14,Wednesday,Outbound,627,Non-express,12:35,12,Arlington Park,observed_stop,0,3,17,22
+2026-10-14_outbound_627,2026-10-14,Wednesday,Outbound,627,Non-express,12:35,13,Palatine,observed_stop,0,7,10,22
+2026-10-14_outbound_627,2026-10-14,Wednesday,Outbound,627,Non-express,12:35,14,Barrington,observed_stop,0,4,6,22
+2026-10-14_outbound_627,2026-10-14,Wednesday,Outbound,627,Non-express,12:35,15,Fox River Grove,observed_stop,0,0,6,22
+2026-10-14_outbound_627,2026-10-14,Wednesday,Outbound,627,Non-express,12:35,16,Cary,observed_stop,0,3,3,22
+2026-10-15_outbound_655,2026-10-15,Thursday,Outbound,655,Express,17:15,1,Chicago OTC,observed_stop,43,0,43,43
+2026-10-15_outbound_655,2026-10-15,Thursday,Outbound,655,Express,17:15,2,Palatine,observed_stop,0,15,28,43
+2026-10-15_outbound_655,2026-10-15,Thursday,Outbound,655,Express,17:15,3,Barrington,observed_stop,0,10,18,43
+2026-10-15_outbound_655,2026-10-15,Thursday,Outbound,655,Express,17:15,4,Fox River Grove,observed_stop,0,7,11,43
+2026-10-15_outbound_655,2026-10-15,Thursday,Outbound,655,Express,17:15,5,Cary,observed_stop,0,8,3,43
+2026-10-16_outbound_627,2026-10-16,Friday,Outbound,627,Non-express,12:35,1,Chicago OTC,observed_stop,25,0,25,25
+2026-10-16_outbound_627,2026-10-16,Friday,Outbound,627,Non-express,12:35,2,Clybourn,observed_stop,1,0,26,25
+2026-10-16_outbound_627,2026-10-16,Friday,Outbound,627,Non-express,12:35,3,Irving Park,observed_stop,0,0,26,25
+2026-10-16_outbound_627,2026-10-16,Friday,Outbound,627,Non-express,12:35,4,Jefferson Park,observed_stop,3,1,28,25
+2026-10-16_outbound_627,2026-10-16,Friday,Outbound,627,Non-express,12:35,5,Norwood Park,observed_stop,0,1,27,25
+2026-10-16_outbound_627,2026-10-16,Friday,Outbound,627,Non-express,12:35,6,Park Ridge,observed_stop,0,0,27,25
+2026-10-16_outbound_627,2026-10-16,Friday,Outbound,627,Non-express,12:35,7,Dee Road,observed_stop,0,1,26,25
+2026-10-16_outbound_627,2026-10-16,Friday,Outbound,627,Non-express,12:35,8,Des Plaines,observed_stop,0,3,23,25
+2026-10-16_outbound_627,2026-10-16,Friday,Outbound,627,Non-express,12:35,9,Cumberland,observed_stop,0,0,23,25
+2026-10-16_outbound_627,2026-10-16,Friday,Outbound,627,Non-express,12:35,10,Mt. Prospect,observed_stop,0,1,22,25
+2026-10-16_outbound_627,2026-10-16,Friday,Outbound,627,Non-express,12:35,11,Arlington Heights,observed_stop,0,3,19,25
+2026-10-16_outbound_627,2026-10-16,Friday,Outbound,627,Non-express,12:35,12,Arlington Park,observed_stop,0,5,14,25
+2026-10-16_outbound_627,2026-10-16,Friday,Outbound,627,Non-express,12:35,13,Palatine,observed_stop,0,6,8,25
+2026-10-16_outbound_627,2026-10-16,Friday,Outbound,627,Non-express,12:35,14,Barrington,observed_stop,0,0,8,25
+2026-10-16_outbound_627,2026-10-16,Friday,Outbound,627,Non-express,12:35,15,Fox River Grove,observed_stop,0,2,6,25
+2026-10-16_outbound_627,2026-10-16,Friday,Outbound,627,Non-express,12:35,16,Cary,observed_stop,0,3,3,25
+2026-10-19_outbound_627,2026-10-19,Monday,Outbound,627,Non-express,12:35,1,Chicago OTC,observed_stop,22,0,22,22
+2026-10-19_outbound_627,2026-10-19,Monday,Outbound,627,Non-express,12:35,2,Clybourn,observed_stop,2,1,23,22
+2026-10-19_outbound_627,2026-10-19,Monday,Outbound,627,Non-express,12:35,3,Irving Park,observed_stop,1,0,24,22
+2026-10-19_outbound_627,2026-10-19,Monday,Outbound,627,Non-express,12:35,4,Jefferson Park,observed_stop,4,0,28,22
+2026-10-19_outbound_627,2026-10-19,Monday,Outbound,627,Non-express,12:35,5,Norwood Park,observed_stop,0,1,27,22
+2026-10-19_outbound_627,2026-10-19,Monday,Outbound,627,Non-express,12:35,6,Park Ridge,observed_stop,0,2,25,22
+2026-10-19_outbound_627,2026-10-19,Monday,Outbound,627,Non-express,12:35,7,Dee Road,observed_stop,0,0,25,22
+2026-10-19_outbound_627,2026-10-19,Monday,Outbound,627,Non-express,12:35,8,Des Plaines,observed_stop,0,1,24,22
+2026-10-19_outbound_627,2026-10-19,Monday,Outbound,627,Non-express,12:35,9,Cumberland,observed_stop,0,0,24,22
+2026-10-19_outbound_627,2026-10-19,Monday,Outbound,627,Non-express,12:35,10,Mt. Prospect,observed_stop,1,4,21,22
+2026-10-19_outbound_627,2026-10-19,Monday,Outbound,627,Non-express,12:35,11,Arlington Heights,observed_stop,0,4,17,22
+2026-10-19_outbound_627,2026-10-19,Monday,Outbound,627,Non-express,12:35,12,Arlington Park,observed_stop,0,5,12,22
+2026-10-19_outbound_627,2026-10-19,Monday,Outbound,627,Non-express,12:35,13,Palatine,observed_stop,0,7,5,22
+2026-10-19_outbound_627,2026-10-19,Monday,Outbound,627,Non-express,12:35,14,Barrington,observed_stop,0,0,5,22
+2026-10-19_outbound_627,2026-10-19,Monday,Outbound,627,Non-express,12:35,15,Fox River Grove,observed_stop,0,1,4,22
+2026-10-19_outbound_627,2026-10-19,Monday,Outbound,627,Non-express,12:35,16,Cary,observed_stop,0,2,2,22
+2026-10-20_outbound_655,2026-10-20,Tuesday,Outbound,655,Express,17:15,1,Chicago OTC,observed_stop,44,0,44,44
+2026-10-20_outbound_655,2026-10-20,Tuesday,Outbound,655,Express,17:15,2,Palatine,observed_stop,0,15,29,44
+2026-10-20_outbound_655,2026-10-20,Tuesday,Outbound,655,Express,17:15,3,Barrington,observed_stop,0,10,19,44
+2026-10-20_outbound_655,2026-10-20,Tuesday,Outbound,655,Express,17:15,4,Fox River Grove,observed_stop,0,9,10,44
+2026-10-20_outbound_655,2026-10-20,Tuesday,Outbound,655,Express,17:15,5,Cary,observed_stop,0,8,2,44
+2026-10-21_outbound_627,2026-10-21,Wednesday,Outbound,627,Non-express,12:35,1,Chicago OTC,observed_stop,29,0,29,29
+2026-10-21_outbound_627,2026-10-21,Wednesday,Outbound,627,Non-express,12:35,2,Clybourn,observed_stop,0,1,28,29
+2026-10-21_outbound_627,2026-10-21,Wednesday,Outbound,627,Non-express,12:35,3,Irving Park,observed_stop,3,1,30,29
+2026-10-21_outbound_627,2026-10-21,Wednesday,Outbound,627,Non-express,12:35,4,Jefferson Park,observed_stop,2,1,31,29
+2026-10-21_outbound_627,2026-10-21,Wednesday,Outbound,627,Non-express,12:35,5,Norwood Park,observed_stop,0,2,29,29
+2026-10-21_outbound_627,2026-10-21,Wednesday,Outbound,627,Non-express,12:35,6,Park Ridge,observed_stop,0,0,29,29
+2026-10-21_outbound_627,2026-10-21,Wednesday,Outbound,627,Non-express,12:35,7,Dee Road,observed_stop,0,0,29,29
+2026-10-21_outbound_627,2026-10-21,Wednesday,Outbound,627,Non-express,12:35,8,Des Plaines,observed_stop,0,2,27,29
+2026-10-21_outbound_627,2026-10-21,Wednesday,Outbound,627,Non-express,12:35,9,Cumberland,observed_stop,0,0,27,29
+2026-10-21_outbound_627,2026-10-21,Wednesday,Outbound,627,Non-express,12:35,10,Mt. Prospect,observed_stop,0,1,26,29
+2026-10-21_outbound_627,2026-10-21,Wednesday,Outbound,627,Non-express,12:35,11,Arlington Heights,observed_stop,0,4,22,29
+2026-10-21_outbound_627,2026-10-21,Wednesday,Outbound,627,Non-express,12:35,12,Arlington Park,observed_stop,0,7,15,29
+2026-10-21_outbound_627,2026-10-21,Wednesday,Outbound,627,Non-express,12:35,13,Palatine,observed_stop,0,7,8,29
+2026-10-21_outbound_627,2026-10-21,Wednesday,Outbound,627,Non-express,12:35,14,Barrington,observed_stop,0,3,5,29
+2026-10-21_outbound_627,2026-10-21,Wednesday,Outbound,627,Non-express,12:35,15,Fox River Grove,observed_stop,0,0,5,29
+2026-10-21_outbound_627,2026-10-21,Wednesday,Outbound,627,Non-express,12:35,16,Cary,observed_stop,0,2,3,29
+2026-10-22_outbound_655,2026-10-22,Thursday,Outbound,655,Express,17:15,1,Chicago OTC,observed_stop,48,0,48,48
+2026-10-22_outbound_655,2026-10-22,Thursday,Outbound,655,Express,17:15,2,Palatine,observed_stop,0,19,29,48
+2026-10-22_outbound_655,2026-10-22,Thursday,Outbound,655,Express,17:15,3,Barrington,observed_stop,0,12,17,48
+2026-10-22_outbound_655,2026-10-22,Thursday,Outbound,655,Express,17:15,4,Fox River Grove,observed_stop,0,8,9,48
+2026-10-22_outbound_655,2026-10-22,Thursday,Outbound,655,Express,17:15,5,Cary,observed_stop,0,6,3,48
+2026-10-23_outbound_627,2026-10-23,Friday,Outbound,627,Non-express,12:35,1,Chicago OTC,observed_stop,29,0,29,29
+2026-10-23_outbound_627,2026-10-23,Friday,Outbound,627,Non-express,12:35,2,Clybourn,observed_stop,1,1,29,29
+2026-10-23_outbound_627,2026-10-23,Friday,Outbound,627,Non-express,12:35,3,Irving Park,observed_stop,0,0,29,29
+2026-10-23_outbound_627,2026-10-23,Friday,Outbound,627,Non-express,12:35,4,Jefferson Park,observed_stop,2,1,30,29
+2026-10-23_outbound_627,2026-10-23,Friday,Outbound,627,Non-express,12:35,5,Norwood Park,observed_stop,0,2,28,29
+2026-10-23_outbound_627,2026-10-23,Friday,Outbound,627,Non-express,12:35,6,Park Ridge,observed_stop,0,0,28,29
+2026-10-23_outbound_627,2026-10-23,Friday,Outbound,627,Non-express,12:35,7,Dee Road,observed_stop,0,0,28,29
+2026-10-23_outbound_627,2026-10-23,Friday,Outbound,627,Non-express,12:35,8,Des Plaines,observed_stop,0,2,26,29
+2026-10-23_outbound_627,2026-10-23,Friday,Outbound,627,Non-express,12:35,9,Cumberland,observed_stop,0,0,26,29
+2026-10-23_outbound_627,2026-10-23,Friday,Outbound,627,Non-express,12:35,10,Mt. Prospect,observed_stop,0,1,25,29
+2026-10-23_outbound_627,2026-10-23,Friday,Outbound,627,Non-express,12:35,11,Arlington Heights,observed_stop,0,2,23,29
+2026-10-23_outbound_627,2026-10-23,Friday,Outbound,627,Non-express,12:35,12,Arlington Park,observed_stop,0,4,19,29
+2026-10-23_outbound_627,2026-10-23,Friday,Outbound,627,Non-express,12:35,13,Palatine,observed_stop,0,5,14,29
+2026-10-23_outbound_627,2026-10-23,Friday,Outbound,627,Non-express,12:35,14,Barrington,observed_stop,0,5,9,29
+2026-10-23_outbound_627,2026-10-23,Friday,Outbound,627,Non-express,12:35,15,Fox River Grove,observed_stop,0,1,8,29
+2026-10-23_outbound_627,2026-10-23,Friday,Outbound,627,Non-express,12:35,16,Cary,observed_stop,0,4,4,29
