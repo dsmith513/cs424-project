@@ -81,3 +81,123 @@ Each point represents a trip, and black marks show the median for that train. To
 This coverage matrix made a design limitation especially clear: each weekday is paired with the same train in every observed week. There are no Monday observations for train 638, for example, and no Tuesday observations for train 640. The apparent differences between express and non-express service therefore also reflect weekday and departure-time differences. These plots support descriptive comparisons of the trips collected, but they do not support attributing a difference to service type alone.
 
 The exploration reinforced the revised domain questions. I will compare station activity only among observed stops, examine passenger load across the measured segment, and keep the exact train and weekday context visible. These are exploratory patterns in one observed car over five weeks. I will use later visualizations to present the analysis more deliberately.
+
+
+#### Task 4: Implement visualization sketches
+
+I implemented four different visualization directions from the Assignment 1 sketches as static figures using `scripts/implement_visualizations.py`. The script reads the processed CSV files and saves its outputs under `figures/implemented/`. Recreate them from the repository root with the following command:
+
+```text
+python scripts/implement_visualizations.py
+```
+
+##### Direction 1: Refined station bar chart (`barsketch2`)
+
+![Implemented paired station bars for one inbound trip](figures/implemented/barsketch2.png)
+
+- **Question/task:** Compare boarding and exiting counts across stations for a selected trip (revised question 1).
+- **Attributes:** Station, boardings, exits, date, direction, and train number.
+- **Marks and channels:** Paired horizontal bars; station is vertical position, passenger count is bar length, and color distinguishes boarding from exiting.
+- **Why this approach:** The sketch's shared baseline makes the two counts at a station easy to compare. I used horizontal bars to make the long station names readable.
+- **What worked and what did not:** The largest boarding locations and stops with exits are easy to find. The zero bars are identified in the subtitle, while skipped stops are absent. This view shows only one trip, so it does not show variability or typical station activity across dates.
+- **Decision:** Keep this as a single-trip inspection view. For later analysis, add date and service selection or pair it with a clearly labeled multi-trip summary.
+
+##### Direction 2: Passenger-load lines (`linesketch`)
+
+![Implemented inbound passenger-load lines across five Mondays](figures/implemented/linesketch.png)
+
+- **Question/task:** Follow passenger load along the observed route and locate where it peaks (revised question 2).
+- **Attributes:** Stop order, passengers after each stop, date, and train number.
+- **Marks and channels:** Lines connect the sequential counts; stop order maps to horizontal position, passenger count to vertical position, and date to line color. A heavier line shows the median at each stop across the five selected trips.
+- **Why this approach:** The line sketch emphasizes route order and makes it possible to see whether load builds, levels off, or falls along the segment.
+- **What worked and what did not:** The five Monday trips for train 640 share the same stop pattern, so their profiles can be compared directly; the median helps summarize them. Other weekdays and services are not shown, and line crossings make individual dates harder to follow. Connecting stops can also suggest continuous measurement between stations when the data only records counts at stops.
+- **Decision:** Keep and extend this direction, with filters for direction, train, and date. Preserve the distinction between observed stops and values between stops.
+
+##### Direction 3: Exit-share pie chart (`piesketch`)
+
+![Implemented exit-share pie for one outbound express trip](figures/implemented/piesketch.png)
+
+- **Question/task:** Show how passengers from one outbound express trip are distributed among exit locations and those remaining after Cary (a focused version of revised question 1).
+- **Attributes:** Exit counts by station, passengers remaining after Cary, date, and train number.
+- **Marks and channels:** Pie sectors; angle and area encode passenger count, with the legend naming each stop and count.
+- **Why this approach:** It follows the original sketch's goal of showing the share of passengers leaving at each stop for train 655 on September 22.
+- **What worked and what did not:** The largest share of the pie chart, Palatine, is immediately apparent, and the five slices account for the 42 passengers who boarded at Chicago OTC on this express trip. Similar-sized slices are difficult to compare precisely. The remaining-passenger slice is not an exit station, so it mixes a continuation count with station exits.
+- **Decision:** Abandon the pie for the main analysis. Use bars for precise comparisons. Retain this as evidence that a part-to-whole view is only suitable for a narrow express-trip example.
+
+##### Direction 4: Weekday scatter (`plotsketch`)
+
+![Implemented weekday scatter of peak passenger load by direction](figures/implemented/plotsketch.png)
+
+- **Question/task:** Compare trip-level peak passenger loads across weekdays and direction (part of revised question 4).
+- **Attributes:** Weekday, peak passenger count, trip direction, date, and train number (train and date are present in the data but not encoded in this first view).
+- **Marks and channels:** One circle per trip; weekday maps to horizontal position, peak load to vertical position, and filled versus hollow circles distinguishes inbound from outbound. Small horizontal jitter separates repeated observations.
+- **Why this approach:** Individual points show variation from trip to trip instead of hiding it in a weekday average, while the filled/hollow marks preserve the sketch's direction distinction.
+- **What worked and what did not:** The spread within each weekday is visible, and the chart makes clear that weekdays do not have equal passenger loads. Some points still overlap. Train identity is omitted, and each weekday is tied to a particular service pattern and departure time, so the plot cannot show an independent weekday effect.
+- **Decision:** Keep this direction, but modify the next version to let viewers filter or facet by train and choose a consistent measure. Keep the service/weekday limitation visible.
+
+These implementations show that the sketches led to different useful views: station events, a sequential passenger load, a part-to-whole exit distribution, and trip-level weekday variation. The bar, line, and scatter approaches will inform later visualizations. The pie was useful for testing the idea but is not a good general comparison for this dataset.
+
+
+#### Task 5: Interaction and multiple views
+
+I built a coordinated interactive version in `visualizations/passenger-explorer.html`, generated from the processed data by `scripts/build_interactive_visualization.py`. Rebuild the page after preparing the CSVs with:
+
+```text
+python scripts/build_interactive_visualization.py
+```
+
+The page is self-contained and can be opened directly in a browser. The four views work together around trip selection:
+
+- Direction, train, and date controls select one trip. The station bar view and, for outbound trips, the exit-share pie update to that trip.
+
+- The passenger-load view shows trips for the selected direction and train with a median profile. A checkbox adds or hides the individual trip lines so someone can focus on the median or inspect trip-to-trip variation.
+
+- The weekday scatter shows all trips and highlights the selected one. Clicking a point selects that trip in the other views. Its y-variable control switches between peak passenger count and total boardings.
+
+- Hovering a mark shows its date or stop and passenger count, providing details without adding labels to every mark.
+
+These views have related but distinct roles: the bars explain the selected trip's station activity, the line profile gives that trip service context, and the scatter places it among the weekday observations. The pie is available only for outbound trips because its slices are exit locations plus passengers remaining after Cary. For inbound trips it displays a short explanation instead of implying that a pie is meaningful there. The earlier static figures in `figures/implemented/` remain as screenshots of the four initial implementations while the HTML version adds selection and coordinated comparison for further exploration. The interactions help inspect a trip and compare it with observations collected on the same service. They do not remove the sampling limitation: train service and weekday are paired in this dataset, so filtering and highlighting cannot identify separate weekday or service effects.
+
+
+#### Task 6: Iterate and refine
+
+I chose the passenger-load line view as the strongest direction because it preserves station order and makes it possible to see where passenger load rises, levels off, and peaks. The following are the two substantial refinements I made to the initial line implementation:
+
+##### Iteration 1: Summarize variation across all trips on one service
+
+![First line-chart refinement with a median and interquartile band](figures/iterations/line-iteration-1.png)
+
+The initial `linesketch` implementation showed several date-colored trip lines and a median. The individual paths overlapped, the colors made trips difficult to distinguish, and the first rendered version showed only five selected Mondays. I changed the aggregation and scope. This iteration uses all 15 inbound train 640 observations and shows the median passenger count and interquartile range at each stop. I kept the view to one direction and train so that every profile follows the same stop pattern.
+
+This makes the typical load profile and its spread easier to read. For example, the median rises along the route and is highest around Des Plaines and Jefferson Park. The band also shows that variation grows later in the trip. The tradeoff is that a summary can hide the path of a particular unusual trip, which led to the second iteration.
+
+##### Iteration 2: Highlight the selected trip within its service profile
+
+![Second line-chart refinement with the selected trip highlighted](figures/iterations/line-iteration-2.png)
+
+To address the loss of trip-level detail, I overlaid a selected trip in orange against the median and interquartile band, then marked its peak and station. This gives a reader both the service-level distribution and one concrete trip path. The screenshot uses September 21, the same design can be rendered for another selected date.
+
+After preparing the processed CSV files and installing the plotting dependencies from `requirements.txt`, run:
+
+```text
+python scripts/render_line_refinement.py
+```
+
+This will recreate the two line-chart iterations.
+
+
+#### Task 7: Current design
+
+The current design is the [refined interactive passenger explorer](visualizations/passenger-explorer-refined.html). It is a separate working HTML visualization generated by `scripts/build_refined_visualization.py`. This is a refined version of the Task 5 explorer at `visualizations/passenger-explorer.html` that brings the Task 6 line-chart iterations into the coordinated set of views.
+
+![Refined passenger-load line view with selected trip, median, and interquartile range](figures/iterations/line-iteration-2.png)
+
+The explorer supports comparing boardings and exits at the served stops of a selected trip, following its passenger load along the observed segment, and comparing that trip with weekday observations. Direction, train, and date controls select the trip for the station bars, exit-share pie, and line highlight. The line view shows the selected trip in orange, its peak location, the median and interquartile range across trips on the same service, and optional individual trip lines. The weekday scatter switches between peak passengers and total boardings; clicking a point selects that trip across the other views. The pie is available for outbound trips only and shows exits by station plus passengers remaining after Cary.
+
+The main design decisions are to use horizontal paired bars to fit long station labels, preserve route order in the line view, summarize service-level variation with a median and interquartile band while highlighting the selected trip, and show individual weekday observations rather than weekday averages. Coordinated selection lets a user move from the weekday context to one trip's station counts and route profile. Tooltips provide dates, stops, and counts on demand. Compared with Assignment 1, the bars are horizontal rather than vertical, the line view adds a distribution and selected-trip highlight, the pie is restricted to outbound trips, and the scatter uses peak passenger load by default. Compared with Task 4's static figures, the refined page supports trip selection and coordinated interaction.
+
+What currently works well is that a selected trip can be read against both its service distribution and its own route profile, the peak is marked directly, and clicking a weekday point updates the connected views. The individual lines can be turned on for more detail.
+
+I am still unsure whether users will notice that scatter points are selectable, interpret the interquartile band correctly, or find the highlighted trip easy to distinguish from the median and optional lines. The line still connects counts measured at stops, which could imply values between stops. The pie combines station exits with passengers continuing beyond Cary, and the scatter can still have overlapping points. Train service, weekday, and departure time remain paired in the sample, so the visualization cannot support independent effect claims.
+
+For Assignment 3, I would like to further evaluate the aspects of the design that I am still insure about. I am still not 100% certain that I want to include the pie chart in the final visualization. I may decide to remove it or replace it with something else entirely.
