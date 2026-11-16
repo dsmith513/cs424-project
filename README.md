@@ -14,6 +14,8 @@
 - `figures/iterations/` contains evidence for the line-chart refinements.
 - `visualizations/passenger-explorer.html` is the interactive version with linked trip selection.
 - `visualizations/passenger-explorer-refined.html` is the refined interactive version used in Task 7.
+- `visualizations/assignment3-static.html` is the Assignment 3 static passenger-load overview.
+- `visualizations/assignment3-interactive.html` is the Assignment 3 filtered and selected passenger-load view.
 
 Recreate the processed files from the repository root with:
 
@@ -54,6 +56,14 @@ python scripts/build_refined_visualization.py
 ```
 
 Open `visualizations/passenger-explorer-refined.html` in a browser. This page adds the median and interquartile band, selected-trip highlight, and peak marker while preserving the Task 5 explorer unchanged. See Task 7 in `Assignment-2.md` for the current design.
+
+Build both Assignment 3 Task 1 versions from the processed CSV files with:
+
+```text
+python scripts/build_assignment3_visualizations.py
+```
+
+Open `visualizations/assignment3-static.html` and `visualizations/assignment3-interactive.html` directly in a browser. The static page shows every direction/train group and trip profile. The interactive page filters a profile by weekday and highlights a selected trip. See Task 1 in `Assignment-3.md` for the design rationale.
 
 After preparing the processed CSV files and installing the plotting dependencies from `requirements.txt`, run:
 
