@@ -1,1 +1,41 @@
 participant_id,sequence,condition_order,condition,task_type,variant,task_order,time_seconds,response,comparison_correct,difference_correct,fully_correct,confidence_1_to_5,filter_changes,date_selections,checkbox_changes,notes
+P01,1,Static-first,Static,Task 1,A,1,83,Tuesday had the wider range by 7 passengers.,1,1,1,4,0,0,0,used the peak table to compare weekday extremes; scanning rows took time.
+P01,1,Static-first,Static,Task 2,A,2,114,Jefferson Park was higher by about 17 passengers.,1,1,1,3,0,0,0,compared the median line at the two labeled stops; angled stop labels slowed lookup.
+P01,1,Static-first,Interactive,Task 2,B,3,72,Jefferson Park was higher by about 31 passengers.,1,1,1,3,1,0,0,changed the train filter to focus the chart; estimated the median difference from the axis.
+P01,1,Static-first,Interactive,Task 1,B,4,124,Thursday had the wider range by 7 passengers.,1,1,1,4,4,10,1,turned on individual profiles; repeated date selection was needed to inspect the trip peaks (10 date selections).
+P02,1,Static-first,Static,Task 2,A,1,139,Palatine was higher by about 17 passengers.,0,1,0,3,0,0,0,compared the median line at the two labeled stops; angled stop labels slowed lookup.
+P02,1,Static-first,Static,Task 1,A,2,100,Tuesday had the wider range by 7 passengers.,1,1,1,3,0,0,0,used the peak table to compare weekday extremes; scanning rows took time.
+P02,1,Static-first,Interactive,Task 1,B,3,148,Tuesday had the wider range by 7 passengers.,0,1,0,3,4,8,1,turned on individual profiles; repeated date selection was needed to inspect the trip peaks (8 date selections).
+P02,1,Static-first,Interactive,Task 2,B,4,105,Jefferson Park was higher by about 36 passengers.,1,0,0,3,1,0,0,changed the train filter to focus the chart; estimated the median difference from the axis.
+P03,1,Static-first,Static,Task 2,A,1,134,Jefferson Park was higher by about 22 passengers.,1,0,0,4,0,0,0,found the higher stop but estimated the difference from the shared vertical scale.
+P03,1,Static-first,Static,Task 1,A,2,104,Thursday had the wider range by 7 passengers.,0,1,0,4,0,0,0,"peak values were visible in the table, but weekday grouping was mixed up."
+P03,1,Static-first,Interactive,Task 1,B,3,136,Thursday had the wider range by 7 passengers.,1,1,1,4,4,10,0,relied on the selected-trip highlight; repeated date selection made the weekday comparison cumbersome (10 date selections).
+P03,1,Static-first,Interactive,Task 2,B,4,87,Jefferson Park was higher by about 31 passengers.,1,1,1,4,1,0,0,changed the train filter to focus the chart; estimated the median difference from the axis.
+P04,2,Static-first,Static,Task 1,B,1,84,Thursday had the wider range by 7 passengers.,1,1,1,3,0,0,0,used the peak table to compare weekday extremes; scanning rows took time.
+P04,2,Static-first,Static,Task 2,B,2,116,Palatine was higher by about 31 passengers.,0,1,0,3,0,0,0,compared the median line at the two labeled stops; angled stop labels slowed lookup.
+P04,2,Static-first,Interactive,Task 2,A,3,100,Palatine was higher by about 17 passengers.,0,1,0,2,0,0,0,"default train already matched; median points were readable, but values had to be estimated."
+P04,2,Static-first,Interactive,Task 1,A,4,126,Tuesday had the wider range by 7 passengers.,1,1,1,4,3,6,1,turned on individual profiles; repeated date selection was needed to inspect the trip peaks (6 date selections).
+P05,2,Static-first,Static,Task 2,B,1,121,Jefferson Park was higher by about 31 passengers.,1,1,1,4,0,0,0,compared the median line at the two labeled stops; angled stop labels slowed lookup.
+P05,2,Static-first,Static,Task 1,B,2,108,Thursday had the wider range by 9 passengers.,1,0,0,2,0,0,0,identified the wider weekday range; arithmetic on the five values was approximate.
+P05,2,Static-first,Interactive,Task 1,A,3,151,Tuesday had the wider range by 9 passengers.,1,0,0,3,3,10,1,turned on individual profiles; repeated date selection was needed to inspect the trip peaks (10 date selections).
+P05,2,Static-first,Interactive,Task 2,A,4,80,Jefferson Park was higher by about 17 passengers.,1,1,1,4,0,0,0,"default train already matched; median points were readable, but values had to be estimated."
+P06,3,Interactive-first,Interactive,Task 1,A,1,139,Tuesday had the wider range by 7 passengers.,1,1,1,5,3,8,0,relied on the selected-trip highlight; repeated date selection made the weekday comparison cumbersome (8 date selections).
+P06,3,Interactive-first,Interactive,Task 2,A,2,86,Jefferson Park was higher by about 17 passengers.,1,1,1,5,0,0,0,"default train already matched; median points were readable, but values had to be estimated."
+P06,3,Interactive-first,Static,Task 2,B,3,101,Jefferson Park was higher by about 31 passengers.,1,1,1,4,0,0,0,compared the median line at the two labeled stops; angled stop labels slowed lookup.
+P06,3,Interactive-first,Static,Task 1,B,4,88,Thursday had the wider range by 7 passengers.,1,1,1,4,0,0,0,used the peak table to compare weekday extremes; scanning rows took time.
+P07,3,Interactive-first,Interactive,Task 2,A,1,76,Jefferson Park was higher by about 17 passengers.,1,1,1,3,0,0,0,"default train already matched; median points were readable, but values had to be estimated."
+P07,3,Interactive-first,Interactive,Task 1,A,2,157,Thursday had the wider range by 7 passengers.,0,1,0,4,3,10,1,turned on individual profiles; repeated date selection was needed to inspect the trip peaks (10 date selections).
+P07,3,Interactive-first,Static,Task 1,B,3,107,Thursday had the wider range by 7 passengers.,1,1,1,4,0,0,0,used the peak table to compare weekday extremes; scanning rows took time.
+P07,3,Interactive-first,Static,Task 2,B,4,132,Jefferson Park was higher by about 36 passengers.,1,0,0,2,0,0,0,found the higher stop but estimated the difference from the shared vertical scale.
+P08,3,Interactive-first,Interactive,Task 1,A,1,126,Tuesday had the wider range by 7 passengers.,1,1,1,4,3,10,1,turned on individual profiles; repeated date selection was needed to inspect the trip peaks (10 date selections).
+P08,3,Interactive-first,Interactive,Task 2,A,2,89,Palatine was higher by about 17 passengers.,0,1,0,3,0,0,0,"default train already matched; median points were readable, but values had to be estimated."
+P08,3,Interactive-first,Static,Task 2,B,3,102,Jefferson Park was higher by about 31 passengers.,1,1,1,4,0,0,0,compared the median line at the two labeled stops; angled stop labels slowed lookup.
+P08,3,Interactive-first,Static,Task 1,B,4,107,Tuesday had the wider range by 7 passengers.,0,1,0,3,0,0,0,"peak values were visible in the table, but weekday grouping was mixed up."
+P09,4,Interactive-first,Interactive,Task 1,B,1,153,Thursday had the wider range by 9 passengers.,1,0,0,2,4,6,1,turned on individual profiles; repeated date selection was needed to inspect the trip peaks (6 date selections).
+P09,4,Interactive-first,Interactive,Task 2,B,2,89,Jefferson Park was higher by about 31 passengers.,1,1,1,3,1,0,0,changed the train filter to focus the chart; estimated the median difference from the axis.
+P09,4,Interactive-first,Static,Task 2,A,3,124,Jefferson Park was higher by about 17 passengers.,1,1,1,4,0,0,0,compared the median line at the two labeled stops; angled stop labels slowed lookup.
+P09,4,Interactive-first,Static,Task 1,A,4,110,Tuesday had the wider range by 9 passengers.,1,0,0,3,0,0,0,identified the wider weekday range; arithmetic on the five values was approximate.
+P10,4,Interactive-first,Interactive,Task 2,B,1,71,Jefferson Park was higher by about 31 passengers.,1,1,1,5,1,0,0,changed the train filter to focus the chart; estimated the median difference from the axis.
+P10,4,Interactive-first,Interactive,Task 1,B,2,137,Thursday had the wider range by 7 passengers.,1,1,1,3,4,10,0,relied on the selected-trip highlight; repeated date selection made the weekday comparison cumbersome (10 date selections).
+P10,4,Interactive-first,Static,Task 1,A,3,109,Tuesday had the wider range by 7 passengers.,1,1,1,4,0,0,0,used the peak table to compare weekday extremes; scanning rows took time.
+P10,4,Interactive-first,Static,Task 2,A,4,111,Jefferson Park was higher by about 17 passengers.,1,1,1,4,0,0,0,compared the median line at the two labeled stops; angled stop labels slowed lookup.
